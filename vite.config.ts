@@ -5,12 +5,7 @@ import { defineConfig } from "vite";
 import devtoolsJson from "vite-plugin-devtools-json";
 
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-    reactRouterRSC(),
-    rsc(),
-    devtoolsJson(),
-  ],
+  plugins: [tailwindcss(), reactRouterRSC(), rsc(), devtoolsJson()],
   resolve: {
     tsconfigPaths: true,
   },
