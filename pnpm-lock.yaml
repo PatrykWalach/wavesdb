@@ -24,6 +24,9 @@ importers:
         specifier: 7.16.0
         version: 7.16.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     devDependencies:
+      '@cloudflare/vite-plugin':
+        specifier: ^1.22.1
+        version: 1.40.1(vite@8.0.3(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(@types/node@24.5.2)(esbuild@0.27.7)(jiti@2.7.0))(workerd@1.20260609.1)(wrangler@4.99.0)
       '@react-router/dev':
         specifier: 7.16.0
         version: 7.16.0(@react-router/serve@7.16.0(react-router@7.16.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3))(@types/node@24.5.2)(@vitejs/plugin-rsc@0.5.27(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vite@8.0.3(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(@types/node@24.5.2)(esbuild@0.27.7)(jiti@2.7.0)))(jiti@2.7.0)(lightningcss@1.32.0)(react-router@7.16.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)(vite@8.0.3(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(@types/node@24.5.2)(esbuild@0.27.7)(jiti@2.7.0))(wrangler@4.99.0)
@@ -207,6 +210,13 @@ packages:
     peerDependenciesMeta:
       workerd:
         optional: true
+
+  '@cloudflare/vite-plugin@1.40.1':
+    resolution: {integrity: sha512-hn7NH6gc2RNOThCJVTSRVvSpqSYVmoZrFQMjilTdwwsrvMD0Np8zM7pEDB1q5isSGy7F5D+dacRF6LiF4Z1QKw==}
+    hasBin: true
+    peerDependencies:
+      vite: ^6.1.0 || ^7.0.0 || ^8.0.0
+      wrangler: ^4.99.0
 
   '@cloudflare/workerd-darwin-64@1.20260609.1':
     resolution: {integrity: sha512-AK8tYLQm+8BqQMzjZ55ZfuhfIm1eCkj+Ykxz6kWXojdACwjjU03MrwdM9fBDdgzU3upXOs4e1scOFHySlfVQjA==}
@@ -2439,6 +2449,19 @@ snapshots:
       unenv: 2.0.0-rc.24
     optionalDependencies:
       workerd: 1.20260609.1
+
+  '@cloudflare/vite-plugin@1.40.1(vite@8.0.3(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(@types/node@24.5.2)(esbuild@0.27.7)(jiti@2.7.0))(workerd@1.20260609.1)(wrangler@4.99.0)':
+    dependencies:
+      '@cloudflare/unenv-preset': 2.16.1(unenv@2.0.0-rc.24)(workerd@1.20260609.1)
+      miniflare: 4.20260609.0
+      unenv: 2.0.0-rc.24
+      vite: 8.0.3(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(@types/node@24.5.2)(esbuild@0.27.7)(jiti@2.7.0)
+      wrangler: 4.99.0
+      ws: 8.20.1
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+      - workerd
 
   '@cloudflare/workerd-darwin-64@1.20260609.1':
     optional: true

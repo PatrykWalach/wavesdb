@@ -1,8 +1,11 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "wavesdb",
-  "pages_build_output_dir": "build/client",
-  "compatibility_date": "2024-11-11",
+  "main": "@react-router/dev/config/default-rsc-entries/entry.rsc",
+	"compatibility_date": "2026-01-29",
+  "compatibility_flags": ["nodejs_compat"],
   "placement": { "mode": "smart" },
-  "env": { "production": { "vars": { "NODE_VERSION": "22.14.0" } } },
-  "vars": { "NODE_VERSION": "22.14.0" }
+  "observability": {
+    "enabled": true
+  }
 }
