@@ -2,7 +2,7 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "wavesdb",
   "main": "@react-router/dev/config/default-rsc-entries/entry.rsc",
-	"compatibility_date": "2026-01-29",
+  "compatibility_date": "2026-01-29",
   "compatibility_flags": ["nodejs_compat"],
   "placement": { "mode": "smart" },
   "observability": {
