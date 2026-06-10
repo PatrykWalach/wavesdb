@@ -6,10 +6,10 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve build/server/index.js",
-    "typecheck": "react-router typegen && tsc",
+    "typecheck": "tsc",
     "oxlint": "oxlint --deny-warnings --fix --report-unused-disable-directives",
     "format": "oxfmt",
-    "typegen": "wrangler types"
+    "typegen": "react-router typegen && wrangler types"
   },
   "dependencies": {
     "@react-router/serve": "7.16.0",
