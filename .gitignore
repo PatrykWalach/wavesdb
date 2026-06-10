@@ -5,3 +5,7 @@
 # React Router
 /.react-router/
 /build/
+
+# cloudflare
+/.wrangler/
+worker-configuration.d.ts
