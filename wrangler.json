@@ -7,5 +7,14 @@
   "placement": { "mode": "smart" },
   "observability": {
     "enabled": true
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "wavesdb",
+      "database_id": "3e53a730-c96f-487e-b3b5-1dacbe855967",
+      "migrations_dir": "drizzle",
+      "migrations_pattern": "drizzle/*/migration.sql"
+    }
+  ]
 }
