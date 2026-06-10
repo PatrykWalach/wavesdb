@@ -48,6 +48,10 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm run typegen
 
+      - name: Migrate
+        if: ${{ !cancelled() }}
+        run: pnpm run db:generate
+
       - name: Lint
         if: ${{ !cancelled() }}
         run: pnpm run oxlint
