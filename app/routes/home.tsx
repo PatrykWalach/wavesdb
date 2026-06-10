@@ -11,21 +11,22 @@ export function meta(_: Route.MetaArgs) {
 
 export async function loader(args: Route.LoaderArgs) {
   const db = args.context.get(Db);
-  const [category] = await db
+  await db
     .insert(categories)
     .values({
       name: "Exploration",
     })
-    .returning()
-    .catch((e) => [{ name: String(e) }]);
-  return { category };
+    .onConflictDoNothing();
+
+  return { categories: db.select().from(categories).all() };
 }
 
-export function ServerComponent(props: Route.ServerComponentProps) {
+export async function ServerComponent(props: Route.ServerComponentProps) {
+  const [category] = await props.loaderData.categories;
   return (
     <main>
       <h1>Welcome to React Router</h1>
-      <div>{props.loaderData.category.name}</div>
+      <div>{category?.name ?? "Category not found"}</div>
     </main>
   );
 }
