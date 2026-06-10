@@ -44,6 +44,10 @@ jobs:
       - name: Install dependencies 📦
         run: sfw pnpm install --frozen-lockfile --prefer-offline
 
+      - name: Typegen
+        if: ${{ !cancelled() }}
+        run: pnpm run typegen
+
       - name: Lint
         if: ${{ !cancelled() }}
         run: pnpm run oxlint

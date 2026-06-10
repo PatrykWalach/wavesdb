@@ -6,10 +6,10 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve build/server/index.js",
-    "typecheck": "react-router typegen && tsc",
+    "typecheck": "tsc",
     "oxlint": "oxlint --deny-warnings --fix --report-unused-disable-directives",
     "format": "oxfmt",
-    "typegen": "wrangler types"
+    "typegen": "react-router typegen && wrangler types"
   },
   "dependencies": {
     "@react-router/serve": "7.16.0",
@@ -28,6 +28,7 @@
     "@vitejs/plugin-rsc": "~0.5.25",
     "oxfmt": "0.54.0",
     "oxlint": "1.69.0",
+    "oxlint-tsgolint": "0.23.0",
     "tailwindcss": "4.2.2",
     "typescript": "5.9.3",
     "vite": "8.0.3",
