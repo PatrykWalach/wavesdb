@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "react-router dev",
     "start": "react-router-serve build/server/index.js",
-    "typecheck": "tsc",
+    "preview": "vp preview",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate"
+    "db:migrate": "drizzle-kit migrate",
+    "test-e2e": "NO_PROXY=localhost playwright test"
   },
   "dependencies": {
     "@react-router/serve": "7.16.0",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.22.1",
+    "@playwright/test": "1.60.0",
     "@react-router/dev": "7.16.0",
     "@tailwindcss/vite": "4.2.2",
     "@types/node": "24.5.2",

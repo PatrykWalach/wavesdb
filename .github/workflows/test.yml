@@ -1,0 +1,60 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - master
+      - renovate/**
+  pull_request:
+  merge_group:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow_ref }}-${{ github.ref_name != github.event.repository.default_branch && github.ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  test-e2e:
+    name: Run E2E Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Socket Firewall
+        uses: socketdev/action@ba6de6cc0565af1f42295590380973573297e31f
+        with:
+          mode: firewall-free
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          filter: blob:none
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install pnpm
+        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+
+      - name: Use Node.js
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version-file: package.json
+          package-manager-cache: false
+
+      - name: Install dependencies 📦
+        run: sfw pnpm install --frozen-lockfile --prefer-offline
+
+      - name: Install playwright 📦
+        run: pnpm exec playwright install --with-deps
+        timeout-minutes: 5
+
+      - name: E2E Tests
+        run: pnpm run test-e2e
+
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7

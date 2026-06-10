@@ -26,7 +26,7 @@ export async function ServerComponent(props: Route.ServerComponentProps) {
   return (
     <main>
       <h1>Welcome to React Router</h1>
-      <div>{category?.name ?? "Category not found"}</div>
+      <h2>{category?.name ?? "Category not found"}</h2>
     </main>
   );
 }

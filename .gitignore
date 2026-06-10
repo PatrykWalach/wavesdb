@@ -9,3 +9,6 @@
 # cloudflare
 /.wrangler/
 worker-configuration.d.ts
+
+# playwright
+/test-results/
