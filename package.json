@@ -27,7 +27,7 @@
     "@types/node": "24.5.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-rsc": "~0.5.25",
+    "@vitejs/plugin-rsc": "0.5.27",
     "dotenv": "17.4.2",
     "drizzle-kit": "1.0.0-rc.4-ca0f029",
     "tailwindcss": "4.2.2",
