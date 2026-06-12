@@ -34,6 +34,13 @@
     "typescript": "5.9.3",
     "vite": "catalog:",
     "vite-plugin-devtools-json": "1.0.0",
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.14.1",
+      "onFail": "download"
+    }
     "wrangler": "4.99.0",
     "vite-plus": "catalog:"
   },
