@@ -8,6 +8,7 @@
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
+    "wrangler:migrate": "wrangler d1 migrations apply wavesdb",
     "test-e2e": "NO_PROXY=localhost playwright test"
   },
   "dependencies": {

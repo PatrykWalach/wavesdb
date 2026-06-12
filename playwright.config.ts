@@ -74,6 +74,5 @@ export default defineConfig<Fixtures>({
     url: "http://localhost:3000",
     reuseExistingServer: !process.env.CI,
     stdout: "pipe",
-    ignoreHTTPSErrors: true,
   },
 });
