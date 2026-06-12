@@ -50,4 +50,4 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: e9b0348e83d33e46fbb82c3271317d70
-          BRANCH: ${{ github.head_ref || github.ref_name  }}
+          BRANCH: ${{ replace(github.head_ref || github.ref_name, '/', '-') }}
