@@ -44,6 +44,8 @@ export const relations = defineRelations(schema, (r) => ({
 
   users: {
     earnedTrophies: r.many.earnedTrophies(),
+    sessions: r.many.sessions(),
+    accounts: r.many.accounts(),
   },
 
   earnedTrophies: {
@@ -61,6 +63,20 @@ export const relations = defineRelations(schema, (r) => ({
       from: [r.earnedTrophies.userId],
       to: [r.users.id],
       optional: false,
+    }),
+  },
+
+  sessions: {
+    user: r.one.users({
+      from: r.sessions.userId,
+      to: r.users.id,
+    }),
+  },
+
+  accounts: {
+    user: r.one.users({
+      from: r.accounts.userId,
+      to: r.users.id,
     }),
   },
 }));
