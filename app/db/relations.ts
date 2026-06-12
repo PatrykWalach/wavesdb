@@ -27,11 +27,7 @@ export const relations = defineRelations(schema, (r) => ({
       to: [r.subcategories.id],
       optional: false,
     }),
-    variants: r.one.variants({
-      from: [r.trophies.id],
-      to: [r.variants.trophyId],
-      optional: false,
-    }),
+    variants: r.many.variants(),
   },
 
   variants: {
