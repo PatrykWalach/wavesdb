@@ -40,6 +40,11 @@ jobs:
       - name: Build
         run: vp build
 
+      - name: D1 Migrate
+        # IF master THEN migrate ELSE I don't know, need to figure it out
+        if: github.ref_name == github.event.repository.default_branch
+        run: vp run wrangler:migrate --remote
+
       - name: Deploy
         run: ${{ github.ref_name != github.event.repository.default_branch && 'vp exec wrangler versions upload --preview-alias ${BRANCH}' || 'vp exec wrangler deploy' }}
         env:
