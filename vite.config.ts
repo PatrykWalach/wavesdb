@@ -2,11 +2,31 @@ import { cloudflare } from "@cloudflare/vite-plugin";
 import { unstable_reactRouterRSC as reactRouterRSC } from "@react-router/dev/vite";
 import tailwindcss from "@tailwindcss/vite";
 import rsc from "@vitejs/plugin-rsc";
-import { defineConfig } from "vite-plus";
 import devtoolsJson from "vite-plugin-devtools-json";
+import { defineConfig } from "vite-plus";
 
 export default defineConfig({
-  fmt: {},
+  run: {
+    tasks: {
+      "wrangler:typegen": {
+        command: "wrangler types",
+        input: ["wrangler.json"],
+        output: ["worker-configuration.d.ts"],
+      },
+      "react-router:typegen": {
+        command: "react-router typegen",
+        input: ["app/**"],
+        output: [".react-router/**"],
+      },
+      build: {
+        command: "react-router build",
+        input: ["app/**"],
+        output: ["build/**"],
+        dependsOn: ["wrangler:typegen", "react-router:typegen"],
+      },
+    },
+  },
+  fmt: { ignorePatterns: ["drizzle/**", "worker-configuration.d.ts"] },
   lint: {
     jsPlugins: [{ name: "vite-plus", specifier: "vite-plus/oxlint-plugin" }],
     rules: { "vite-plus/prefer-vite-plus-imports": "error" },

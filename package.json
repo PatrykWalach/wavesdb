@@ -3,13 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve build/server/index.js",
     "typecheck": "tsc",
     "oxlint": "vp lint --deny-warnings --fix --report-unused-disable-directives",
     "format": "vp fmt",
-    "typegen": "react-router typegen && wrangler types",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate"
