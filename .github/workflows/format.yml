@@ -41,7 +41,7 @@ jobs:
 
       - name: Lint & Format
         if: ${{ !cancelled() }}
-        run: vp check:fix
+        run: vp check --fix
 
       - name: Commit changes
         if: ${{ !cancelled() }}
