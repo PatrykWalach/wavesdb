@@ -10,5 +10,5 @@ test("hello world", async ({ page }) => {
 test("database works", async ({ page }) => {
   await page.goto("/");
 
-  await expect(page.locator("h2")).toHaveText("Exploration");
+  await expect(page.getByRole("heading", { name: "POWER!", exact: true })).toBeVisible();
 });
