@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "labels": ["dependencies"],
+  "extends": [
+    "group:allNonMajor",
+    "config:best-practices",
+    ":pinAllExceptPeerDependencies",
+    // ":automergeStableNonMajor",
+    "schedule:daily",
+    ":separateMultipleMajorReleases"
+  ],
+  "packageRules": [
+    { "matchPackageNames": ["@types/**"], "groupName": "types" },
+    {
+      "groupName": "digests",
+      "matchDepTypes": ["action"],
+      "matchUpdateTypes": ["digest"],
+      "automerge": false
+    },
+    { "groupName": "build", "extends": ["packages:vite"] },
+    { "groupName": "test", "extends": ["packages:test"] },
+    { "groupName": "linters", "extends": ["packages:linters"] }
+  ],
+  "postUpdateOptions": ["pnpmDedupe"],
+  "automergeType": "branch",
+  "ignoreDeps": [
+    // pinnned
+    "pnpm"
+  ]
+}
