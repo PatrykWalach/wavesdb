@@ -6,8 +6,6 @@
     "dev": "react-router dev",
     "start": "react-router-serve build/server/index.js",
     "typecheck": "tsc",
-    "oxlint": "vp lint --fix",
-    "format": "vp fmt",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate"

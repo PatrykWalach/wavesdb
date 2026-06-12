@@ -24,6 +24,11 @@ export default defineConfig({
         output: ["build/**"],
         dependsOn: ["wrangler:typegen", "react-router:typegen"],
       },
+      "check:fix": {
+        command: "vp check --fix",
+        cache: false,
+        dependsOn: ["wrangler:typegen", "react-router:typegen"],
+      },
     },
   },
   fmt: { ignorePatterns: ["drizzle/**", "worker-configuration.d.ts"] },
