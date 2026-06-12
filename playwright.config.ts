@@ -73,5 +73,6 @@ export default defineConfig<Fixtures>({
     command: "vp run preview",
     url: "http://localhost:3000",
     reuseExistingServer: !process.env.CI,
+    stdout: "pipe",
   },
 });

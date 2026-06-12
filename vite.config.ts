@@ -15,12 +15,12 @@ export default defineConfig({
       },
       "react-router:typegen": {
         command: "react-router typegen",
-        input: ["app/**"],
+        input: [{ auto: true }, "!node_modules/**", "!.react-router/**"],
         output: [".react-router/**"],
       },
       build: {
         command: "react-router build",
-        input: ["app/**"],
+        input: [{ auto: true }, "!node_modules/**", "!.wrangler/**", "!build/**"],
         output: ["build/**"],
         dependsOn: ["wrangler:typegen", "react-router:typegen"],
       },
