@@ -70,7 +70,7 @@ export default defineConfig<Fixtures>({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: "pnpm run build && pnpm run preview",
+    command: "vp run preview",
     url: "http://localhost:3000",
     reuseExistingServer: !process.env.CI,
   },

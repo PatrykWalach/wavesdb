@@ -24,6 +24,11 @@ export default defineConfig({
         output: ["build/**"],
         dependsOn: ["wrangler:typegen", "react-router:typegen"],
       },
+      preview: {
+        command: "vp preview",
+        cache: false,
+        dependsOn: ["build"],
+      },
       "check:fix": {
         command: "vp check --fix",
         cache: false,
