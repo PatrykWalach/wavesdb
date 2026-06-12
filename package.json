@@ -7,8 +7,8 @@
     "dev": "react-router dev",
     "start": "react-router-serve build/server/index.js",
     "typecheck": "tsc",
-    "oxlint": "oxlint --deny-warnings --fix --report-unused-disable-directives",
-    "format": "oxfmt",
+    "oxlint": "vp lint --deny-warnings --fix --report-unused-disable-directives",
+    "format": "vp fmt",
     "typegen": "react-router typegen && wrangler types",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
@@ -32,14 +32,12 @@
     "@vitejs/plugin-rsc": "~0.5.25",
     "dotenv": "17.4.2",
     "drizzle-kit": "1.0.0-rc.4-ca0f029",
-    "oxfmt": "0.54.0",
-    "oxlint": "1.69.0",
-    "oxlint-tsgolint": "0.23.0",
     "tailwindcss": "4.2.2",
     "typescript": "5.9.3",
-    "vite": "8.0.3",
+    "vite": "catalog:",
     "vite-plugin-devtools-json": "1.0.0",
-    "wrangler": "4.99.0"
+    "wrangler": "4.99.0",
+    "vite-plus": "catalog:"
   },
   "packageManager": "pnpm@10.22.0"
 }
