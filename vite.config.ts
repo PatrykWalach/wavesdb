@@ -15,14 +15,19 @@ export default defineConfig({
       },
       "react-router:typegen": {
         command: "react-router typegen",
-        input: ["app/**"],
+        input: [{ auto: true }, "!node_modules/**", "!.react-router/**"],
         output: [".react-router/**"],
       },
       build: {
         command: "react-router build",
-        input: ["app/**"],
+        input: [{ auto: true }, "!node_modules/**", "!.wrangler/**", "!build/**"],
         output: ["build/**"],
         dependsOn: ["wrangler:typegen", "react-router:typegen"],
+      },
+      preview: {
+        command: "vp preview",
+        cache: false,
+        dependsOn: ["build"],
       },
       "check:fix": {
         command: "vp check --fix",
@@ -78,5 +83,11 @@ export default defineConfig({
         exclude: ["react-router"],
       },
     },
+  },
+  server: {
+    port: 3000,
+  },
+  preview: {
+    port: 3000,
   },
 });
