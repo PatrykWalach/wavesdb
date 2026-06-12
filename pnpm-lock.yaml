@@ -28,17 +28,17 @@ importers:
         specifier: 1.0.0-rc.4-5d5b77c
         version: 1.0.0-rc.4-5d5b77c(valibot@1.4.1(typescript@5.9.3))(zod@4.4.3)
       react:
-        specifier: ^19.2.6
+        specifier: 19.2.7
         version: 19.2.7
       react-dom:
-        specifier: ^19.2.6
+        specifier: 19.2.7
         version: 19.2.7(react@19.2.7)
       react-router:
         specifier: 7.16.0
         version: 7.16.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     devDependencies:
       '@cloudflare/vite-plugin':
-        specifier: ^1.22.1
+        specifier: 1.40.1
         version: 1.40.1(@voidzero-dev/vite-plus-core@0.1.24(@types/node@24.5.2)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)(typescript@5.9.3))(workerd@1.20260609.1)(wrangler@4.99.0)
       '@playwright/test':
         specifier: 1.60.0

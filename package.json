@@ -15,12 +15,12 @@
     "@react-router/serve": "7.16.0",
     "@remix-run/node-fetch-server": "0.13.0",
     "drizzle-orm": "1.0.0-rc.4-5d5b77c",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
     "react-router": "7.16.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.22.1",
+    "@cloudflare/vite-plugin": "1.40.1",
     "@playwright/test": "1.60.0",
     "@react-router/dev": "7.16.0",
     "@tailwindcss/vite": "4.2.2",
