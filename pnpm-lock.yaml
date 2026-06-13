@@ -22,8 +22,8 @@ importers:
         specifier: 7.17.0
         version: 7.17.0(react-router@7.17.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)
       '@remix-run/node-fetch-server':
-        specifier: 0.13.0
-        version: 0.13.0
+        specifier: 0.13.3
+        version: 0.13.3
       drizzle-orm:
         specifier: 1.0.0-rc.4-5d5b77c
         version: 1.0.0-rc.4-5d5b77c(valibot@1.4.1(typescript@5.9.3))(zod@4.4.3)
@@ -1249,8 +1249,8 @@ packages:
     peerDependencies:
       react-router: 7.17.0
 
-  '@remix-run/node-fetch-server@0.13.0':
-    resolution: {integrity: sha512-1EsNo0ZpgXu/90AWoRZf/oE3RVTUS80tiTUpt+hv5pjtAkw7icN4WskDwz/KdAw5ARbJLMhZBrO1NqThmy/McA==}
+  '@remix-run/node-fetch-server@0.13.3':
+    resolution: {integrity: sha512-UfjOXed/DQteaM5VyTfqTeGpHwyL2J5aoRGY6cydip4tt1ehNNeSwuXCC7AEGE0RWBs/7bgKxYkL/B/+UDe4AA==}
 
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
@@ -3370,7 +3370,7 @@ snapshots:
       '@babel/traverse': 7.29.7
       '@babel/types': 7.29.7
       '@react-router/node': 7.17.0(react-router@7.17.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)
-      '@remix-run/node-fetch-server': 0.13.0
+      '@remix-run/node-fetch-server': 0.13.3
       arg: 5.0.2
       babel-dead-code-elimination: 1.0.12
       chokidar: 4.0.3
@@ -3449,7 +3449,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@remix-run/node-fetch-server@0.13.0': {}
+  '@remix-run/node-fetch-server@0.13.3': {}
 
   '@rolldown/pluginutils@1.0.1': {}
 
