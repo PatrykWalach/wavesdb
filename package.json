@@ -12,17 +12,17 @@
     "test-e2e": "NO_PROXY=localhost playwright test"
   },
   "dependencies": {
-    "@react-router/serve": "7.16.0",
+    "@react-router/serve": "7.17.0",
     "@remix-run/node-fetch-server": "0.13.0",
     "drizzle-orm": "1.0.0-rc.4-5d5b77c",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "react-router": "7.16.0"
+    "react-router": "7.17.0"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.40.1",
     "@playwright/test": "1.60.0",
-    "@react-router/dev": "7.16.0",
+    "@react-router/dev": "7.17.0",
     "@tailwindcss/vite": "4.2.2",
     "@types/node": "24.5.2",
     "@types/react": "^19.2.14",
