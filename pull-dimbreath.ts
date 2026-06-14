@@ -1,20 +1,5 @@
 import { promises } from "fs";
-// import data from "./app/data.json" with { type: "json" };
-import csvParser from "csv-parser";
-import fs from "fs";
 import * as schema from "./app/db/schema.ts";
-
-async function readCsv<Row extends {}>(filePath: string) {
-  return new Promise<Row[]>((resolve, reject) => {
-    const rows: Row[] = [];
-
-    fs.createReadStream(filePath)
-      .pipe(csvParser())
-      .on("data", (row) => rows.push(row))
-      .on("end", () => resolve(rows))
-      .on("error", reject);
-  });
-}
 
 const [Achievement, AchievementCategory, AchievementGroup, MultiText] = await Promise.all([
   fetch(
@@ -82,69 +67,13 @@ if (descs.size !== Achievement.length) {
   throw new Error("Achievement.Description not unique");
 }
 
-// const names = new Set(Achievement.map((Achievement) => Achievement.Name));
-// if (names.size !== Achievement.length) {
-//   throw new Error("Achievement.Name not unique", {
-//     cause: {
-//       expected: Achievement.length,
-//       actual: names.size,
-//     },
-//   });
-// }
-
-const AchievementWithText = new Map(
-  Achievement.map((Achievement) => {
-    return [
-      MultiText[Achievement.Desc],
-      {
-        ...Achievement,
-        Name: MultiText[Achievement.Name],
-        Desc: MultiText[Achievement.Desc],
-      },
-    ];
-  }),
-);
-
-const csv = await readCsv<{
-  Description: string;
-  Notes: string;
-  Version: string;
-}>("app/achievements.csv");
-
-const AchievementWithNotesAndVersion = new Map(
-  csv.map((row) => {
-    try {
-      if (!row["Version"]) {
-        throw new Error(`No version`);
-      }
-      return [
-        AchievementWithText.get(row.Description).Id,
-        {
-          notes: row["Notes"] || undefined,
-          version: row["Version"],
-          Achievement: AchievementWithText.get(row.Description),
-        },
-      ];
-    } catch (e) {
-      throw new Error(`Failed to parse CSV`, {
-        cause: {
-          e,
-          row,
-        },
-      });
-    }
-  }),
-);
-
-for (const [, Achievement] of AchievementWithText) {
-  if (!AchievementWithNotesAndVersion.has(Achievement.Id)) {
-    AchievementWithNotesAndVersion.set(Achievement.Id, {
-      Achievement,
-      notes: undefined,
-      version: undefined,
-    });
-  }
-}
+const AchievementWithText = Achievement.map((Achievement) => {
+  return {
+    ...Achievement,
+    Name: MultiText[Achievement.Name],
+    Desc: MultiText[Achievement.Desc],
+  };
+});
 
 const categories = AchievementCategory.map((category): typeof schema.categories.$inferInsert => {
   return {
@@ -159,30 +88,40 @@ const groups = AchievementGroup.map((group): typeof schema.groups.$inferInsert =
     name: MultiText[group.Name],
     categoryId: group.Category,
   };
-}).toSorted((a, b) => a.name?.localeCompare(b.name));
+}).toSorted((a, b) => a.id - b.id);
 
-const trophies = AchievementWithNotesAndVersion.keys().map(
-  (id): typeof schema.trophies.$inferInsert => {
-    return {
-      id: id,
-      subcategoryId: id,
-    };
-  },
-);
+const trophies = AchievementWithText.map((Achievement): typeof schema.trophies.$inferInsert => {
+  return {
+    id: Achievement.Id,
+    subcategoryId: Achievement.Id,
+  };
+});
 
-const variants = AchievementWithNotesAndVersion.values()
-  .map(({ Achievement, notes, version }): typeof schema.variants.$inferInsert => ({
+import VARIANTS from "./data/variants.json" with { type: "json" };
+
+const VARIANTS_BY_ID = new Map(VARIANTS.map((VARIANT) => [VARIANT.id, VARIANT]));
+
+const variants = AchievementWithText.values()
+  .toArray()
+  .filter((Achievement) => Achievement.Name != null)
+  .map((Achievement, i): typeof schema.variants.$inferInsert => ({
     id: Achievement.Id,
     name: Achievement.Name,
     description: Achievement.Desc,
-    asterites: Achievement.asterites,
+    asterites:
+      Achievement.Level === 1
+        ? 5
+        : Achievement.Level === 2
+          ? 10
+          : Achievement.Level === 3
+            ? 20
+            : undefined,
     hidden: Achievement.Hidden,
     trophyId: Achievement.Id,
-    notes,
-    version,
+    notes: VARIANTS_BY_ID.get(Achievement.Id).notes,
+    version: VARIANTS_BY_ID.get(Achievement.Id).version,
   }))
-  .toArray()
-  .toSorted((a, b) => a.name?.localeCompare(b.name));
+  .toSorted((a, b) => a.id - b.id);
 
 await Promise.all([
   promises.writeFile("data/categories.json", JSON.stringify(categories), {
