@@ -67,27 +67,36 @@ if (descs.size !== Achievement.length) {
   throw new Error("Achievement.Description not unique");
 }
 
-const AchievementWithText = Achievement.map((Achievement) => {
-  return {
-    ...Achievement,
-    Name: MultiText[Achievement.Name],
-    Desc: MultiText[Achievement.Desc],
-  };
+const AchievementWithText = Achievement.flatMap((Achievement) => {
+  const Name = MultiText[Achievement.Name];
+  const Desc = MultiText[Achievement.Desc];
+  return Name && Desc
+    ? [
+        {
+          ...Achievement,
+          Name,
+          Desc,
+        },
+      ]
+    : [];
 });
 
-const categories = AchievementCategory.map((category): typeof schema.categories.$inferInsert => {
-  return {
-    name: MultiText[category.Name],
-    id: category.Id,
-  };
+const categories = AchievementCategory.flatMap((category) => {
+  const name = MultiText[category.Name];
+  return name
+    ? ({
+        name: name,
+        id: category.Id,
+      } satisfies typeof schema.categories.$inferInsert)
+    : null;
 });
 
-const groups = AchievementGroup.map((group): typeof schema.groups.$inferInsert => {
+const groups = AchievementGroup.map((group) => {
   return {
     id: group.Id,
     name: MultiText[group.Name],
     categoryId: group.Category,
-  };
+  } satisfies typeof schema.groups.$inferInsert;
 }).toSorted((a, b) => a.id - b.id);
 
 const trophies = AchievementWithText.map((Achievement): typeof schema.trophies.$inferInsert => {
@@ -103,24 +112,28 @@ const VARIANTS_BY_ID = new Map(VARIANTS.map((VARIANT) => [VARIANT.id, VARIANT]))
 
 const variants = AchievementWithText.values()
   .toArray()
-  .filter((Achievement) => Achievement.Name != null)
-  .map((Achievement, i): typeof schema.variants.$inferInsert => ({
-    id: Achievement.Id,
-    name: Achievement.Name,
-    description: Achievement.Desc,
-    asterites:
-      Achievement.Level === 1
-        ? 5
-        : Achievement.Level === 2
-          ? 10
-          : Achievement.Level === 3
-            ? 20
-            : undefined,
-    hidden: Achievement.Hidden,
-    trophyId: Achievement.Id,
-    notes: VARIANTS_BY_ID.get(Achievement.Id).notes,
-    version: VARIANTS_BY_ID.get(Achievement.Id).version,
-  }))
+  .map(
+    (Achievement) =>
+      ({
+        id: Achievement.Id,
+        name: Achievement.Name,
+        description: Achievement.Desc,
+        asterites:
+          Achievement.Level === 1
+            ? 5
+            : Achievement.Level === 2
+              ? 10
+              : Achievement.Level === 3
+                ? 20
+                : undefined,
+        hidden: Achievement.Hidden,
+        trophyId: Achievement.Id,
+        notes: VARIANTS_BY_ID.get(Achievement.Id)?.notes,
+        version: VARIANTS_BY_ID.get(Achievement.Id)?.version as
+          | (typeof schema.variants.$inferInsert)["version"]
+          | undefined,
+      }) satisfies typeof schema.variants.$inferInsert,
+  )
   .toSorted((a, b) => a.id - b.id);
 
 await Promise.all([
