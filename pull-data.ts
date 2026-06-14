@@ -102,7 +102,7 @@ const groups = AchievementGroup.map((group) => {
 const trophies = AchievementWithText.map((Achievement): typeof schema.trophies.$inferInsert => {
   return {
     id: Achievement.Id,
-    subcategoryId: Achievement.Id,
+    subcategoryId: Achievement.GroupId,
   };
 });
 
