@@ -736,7 +736,8 @@
     "description": "Defeat CHOP CHOP in the Penitent's End.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100257
+    "trophyId": 100257,
+    "version": "v2.0"
   },
   {
     "id": 100258,
@@ -744,7 +745,8 @@
     "description": "Defeat the Fae Blaze in the Fagaceae Peninsula.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100258
+    "trophyId": 100258,
+    "version": "v2.0"
   },
   {
     "id": 100259,
@@ -752,7 +754,8 @@
     "description": "Defeat the Vitreum Duet in the Hallowed Reach.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100259
+    "trophyId": 100259,
+    "version": "v2.0"
   },
   {
     "id": 100260,
@@ -760,7 +763,8 @@
     "description": "Defeat the Nimbus Singers in the Nimbus Sanctum.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100260
+    "trophyId": 100260,
+    "version": "v2.0"
   },
   {
     "id": 100261,
@@ -768,7 +772,8 @@
     "description": "Defeat the Knight of Sorrowful Aria in Averardo Vault.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100261
+    "trophyId": 100261,
+    "version": "v2.0"
   },
   {
     "id": 100262,
@@ -776,7 +781,8 @@
     "description": "Defeat the Plushie Squad in Averardo Vault.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100262
+    "trophyId": 100262,
+    "version": "v2.0"
   },
   {
     "id": 100263,
@@ -784,7 +790,8 @@
     "description": "Defeat the Forgotten Nobles in Thessaleo Fells.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100263
+    "trophyId": 100263,
+    "version": "v2.0"
   },
   {
     "id": 100264,
@@ -792,7 +799,8 @@
     "description": "Complete all Echo Challenge: Flight in the Ragunna region.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100264
+    "trophyId": 100264,
+    "version": "v2.0"
   },
   {
     "id": 100265,
@@ -800,7 +808,8 @@
     "description": "Ride a Gondola once.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100265
+    "trophyId": 100265,
+    "version": "v2.0"
   },
   {
     "id": 100266,
@@ -808,7 +817,8 @@
     "description": "Use a Wingray once.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100266
+    "trophyId": 100266,
+    "version": "v2.0"
   },
   {
     "id": 100267,
@@ -816,7 +826,8 @@
     "description": "Achieve a score of 95 or higher in all Echo Challenge: Unfinished Book.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100267
+    "trophyId": 100267,
+    "version": "v2.0"
   },
   {
     "id": 100268,
@@ -824,7 +835,8 @@
     "description": "Resolve all problems of the Fratellis brothers.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100268
+    "trophyId": 100268,
+    "version": "v2.0"
   },
   {
     "id": 100269,
@@ -832,7 +844,8 @@
     "description": "Complete \"Dream Patrol: Finale.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100269
+    "trophyId": 100269,
+    "version": "v2.0"
   },
   {
     "id": 100270,
@@ -840,7 +853,8 @@
     "description": "Lose to the Lifer 10 times in the game in Oakheart Highcourt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100270
+    "trophyId": 100270,
+    "version": "v2.0"
   },
   {
     "id": 100271,
@@ -848,7 +862,8 @@
     "description": "Defeat the Lifer in Oakheart Highcourt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100271
+    "trophyId": 100271,
+    "version": "v2.0"
   },
   {
     "id": 100272,
@@ -856,7 +871,8 @@
     "description": "Win against the Lifer in the game in Oakheart Highcourt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100272
+    "trophyId": 100272,
+    "version": "v2.0"
   },
   {
     "id": 100273,
@@ -864,7 +880,8 @@
     "description": "Reach the top of the ruins north of the Shores of Last Breath.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100273
+    "trophyId": 100273,
+    "version": "v2.0"
   },
   {
     "id": 100274,
@@ -872,7 +889,8 @@
     "description": "Reach the top of Averardo Vault.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100274
+    "trophyId": 100274,
+    "version": "v2.0"
   },
   {
     "id": 100275,
@@ -880,7 +898,8 @@
     "description": "Reach Averardo Vault by Gondola with Waterfall Surge.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100275
+    "trophyId": 100275,
+    "version": "v2.0"
   },
   {
     "id": 100276,
@@ -888,7 +907,8 @@
     "description": "Discover the hidden treasures of Averardo Vault.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100276
+    "trophyId": 100276,
+    "version": "v2.0"
   },
   {
     "id": 100277,
@@ -896,7 +916,8 @@
     "description": "Absorb 20 Goldcrest Scarab.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100277
+    "trophyId": 100277,
+    "version": "v2.0"
   },
   {
     "id": 100279,
@@ -904,7 +925,8 @@
     "description": "Help Carlotta solve the chandelier puzzle in Averardo Vault.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100279
+    "trophyId": 100279,
+    "version": "v2.0"
   },
   {
     "id": 100280,
@@ -912,7 +934,8 @@
     "description": "Meet up with Carlotta in Averardo Vault.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100280
+    "trophyId": 100280,
+    "version": "v2.0"
   },
   {
     "id": 100281,
@@ -920,7 +943,8 @@
     "description": "Cruise Nimbus Sanctum with Lorelei in Echo Challenge: Illusion.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100281
+    "trophyId": 100281,
+    "version": "v2.0"
   },
   {
     "id": 100282,
@@ -928,7 +952,8 @@
     "description": "Reach the top of the Command Rise.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100282
+    "trophyId": 100282,
+    "version": "v2.0"
   },
   {
     "id": 100283,
@@ -936,7 +961,8 @@
     "description": "Get hit by Dragon of Dirge's breath on the Wailing Ascent.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100283
+    "trophyId": 100283,
+    "version": "v2.0"
   },
   {
     "id": 100284,
@@ -944,7 +970,8 @@
     "description": "Discover the secret passage of the Fool's Elysium.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100284
+    "trophyId": 100284,
+    "version": "v2.0"
   },
   {
     "id": 100285,
@@ -952,7 +979,8 @@
     "description": "Steer the Gondola into the cave in the heights of Penitent's End.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100285
+    "trophyId": 100285,
+    "version": "v2.0"
   },
   {
     "id": 100286,
@@ -960,7 +988,8 @@
     "description": "Defeat the Mad Knight.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100286
+    "trophyId": 100286,
+    "version": "v2.0"
   },
   {
     "id": 100287,
@@ -968,7 +997,8 @@
     "description": "Discover the sea of flowers you once passed through with Shorekeeper.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100287
+    "trophyId": 100287,
+    "version": "v2.0"
   },
   {
     "id": 100288,
@@ -976,7 +1006,8 @@
     "description": "Find the hidden treasure in Claudia's painting.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100288
+    "trophyId": 100288,
+    "version": "v2.0"
   },
   {
     "id": 100289,
@@ -984,7 +1015,8 @@
     "description": "Defeat the Knight of Crimson Moon.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100289
+    "trophyId": 100289,
+    "version": "v2.0"
   },
   {
     "id": 100291,
@@ -992,7 +1024,8 @@
     "description": "Complete all goals of Dream Patrol: Auto Handpuppet in one attempt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100291
+    "trophyId": 100291,
+    "version": "v2.0"
   },
   {
     "id": 100292,
@@ -1000,7 +1033,8 @@
     "description": "Complete all goals of Dream Patrol: Wiz on the Holy Night in one attempt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100292
+    "trophyId": 100292,
+    "version": "v2.0"
   },
   {
     "id": 100293,
@@ -1008,7 +1042,8 @@
     "description": "Complete all goals of Dream Patrol: Deadly Ballet in one attempt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100293
+    "trophyId": 100293,
+    "version": "v2.0"
   },
   {
     "id": 100294,
@@ -1016,7 +1051,8 @@
     "description": "Complete all goals of Dream Patrol: Knight in a Storm in one attempt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100294
+    "trophyId": 100294,
+    "version": "v2.0"
   },
   {
     "id": 100295,
@@ -1024,7 +1060,8 @@
     "description": "Complete all goals of Dream Patrol: Twin Swords of Light in one attempt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100295
+    "trophyId": 100295,
+    "version": "v2.0"
   },
   {
     "id": 100296,
@@ -1032,7 +1069,8 @@
     "description": "Complete all goals of Dream Patrol: Lord of the Windmill in one attempt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100296
+    "trophyId": 100296,
+    "version": "v2.0"
   },
   {
     "id": 100297,
@@ -1040,7 +1078,8 @@
     "description": "Complete all the Dreamscape Nexus defense challenges in Dream Patrol.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100297
+    "trophyId": 100297,
+    "version": "v2.0"
   },
   {
     "id": 100298,
@@ -1048,7 +1087,8 @@
     "description": "Complete Exploration Quest \"Where Wind Returns to Celestial Realms.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100298
+    "trophyId": 100298,
+    "version": "v2.0"
   },
   {
     "id": 100299,
@@ -1056,7 +1096,8 @@
     "description": "Claim all the treasures guarded by the Lifer.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100299
+    "trophyId": 100299,
+    "version": "v2.0"
   },
   {
     "id": 100300,
@@ -1064,7 +1105,8 @@
     "description": "Complete Side Quest \"Quest of Faith.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100300
+    "trophyId": 100300,
+    "version": "v2.0"
   },
   {
     "id": 100301,
@@ -1072,7 +1114,8 @@
     "description": "Complete Exploration Quest \"Hymn of the Sea of Clouds.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100301
+    "trophyId": 100301,
+    "version": "v2.0"
   },
   {
     "id": 100302,
@@ -1080,7 +1123,8 @@
     "description": "Help the Plushies fully develop their village.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100302
+    "trophyId": 100302,
+    "version": "v2.0"
   },
   {
     "id": 100303,
@@ -1088,7 +1132,8 @@
     "description": "Complete Side Quest \"The Best Audience.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100303
+    "trophyId": 100303,
+    "version": "v2.0"
   },
   {
     "id": 100304,
@@ -1096,7 +1141,8 @@
     "description": "Complete Side Quest \"The Last Knight.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100304
+    "trophyId": 100304,
+    "version": "v2.0"
   },
   {
     "id": 100305,
@@ -1104,7 +1150,8 @@
     "description": "Complete Exploration Quest \"Shadow of the Towers.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100305
+    "trophyId": 100305,
+    "version": "v2.0"
   },
   {
     "id": 100306,
@@ -1112,7 +1159,8 @@
     "description": "Complete Side Quest \"Trials of Old.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100306
+    "trophyId": 100306,
+    "version": "v2.0"
   },
   {
     "id": 100307,
@@ -1120,7 +1168,8 @@
     "description": "Complete Side Quest \"Skyward Voyage.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100307
+    "trophyId": 100307,
+    "version": "v2.0"
   },
   {
     "id": 100308,
@@ -1128,7 +1177,8 @@
     "description": "Complete all of Thessaleo Fells' Echo Challenge: Illusion.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100308
+    "trophyId": 100308,
+    "version": "v2.0"
   },
   {
     "id": 100309,
@@ -1136,7 +1186,8 @@
     "description": "Complete Side Quest \"Ragunna Holiday.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100309
+    "trophyId": 100309,
+    "version": "v2.0"
   },
   {
     "id": 100310,
@@ -1144,7 +1195,8 @@
     "description": "Defeat all the enemies in the Dream Patrol challenges.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100310
+    "trophyId": 100310,
+    "version": "v2.0"
   },
   {
     "id": 100312,
@@ -1152,7 +1204,8 @@
     "description": "Complete \"Silent as a Falling Leaf.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100312
+    "trophyId": 100312,
+    "version": "v2.1"
   },
   {
     "id": 100313,
@@ -1160,7 +1213,8 @@
     "description": "Defeat \"Hurriclaw Alpha.\"",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 100313
+    "trophyId": 100313,
+    "version": "v2.1"
   },
   {
     "id": 100314,
@@ -1168,7 +1222,8 @@
     "description": "Open all the Supply Chests in the Precious Metals and Artworks Depository and the Echoes Depository.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100314
+    "trophyId": 100314,
+    "version": "v2.1"
   },
   {
     "id": 100315,
@@ -1176,7 +1231,8 @@
     "description": "Open all the Supply Chests along the Echo train track.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100315
+    "trophyId": 100315,
+    "version": "v2.1"
   },
   {
     "id": 100316,
@@ -1184,7 +1240,8 @@
     "description": "Inspect 7 collections within the depository.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100316
+    "trophyId": 100316,
+    "version": "v2.1"
   },
   {
     "id": 100317,
@@ -1192,7 +1249,8 @@
     "description": "Open the Supply Chest on the chandelier of the Echoes Depository area.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100317
+    "trophyId": 100317,
+    "version": "v2.1"
   },
   {
     "id": 100318,
@@ -1200,7 +1258,8 @@
     "description": "Talk to all 4 Echo greeters in the Precious Metals and Artworks Depository, and select 4 correct answers.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100318
+    "trophyId": 100318,
+    "version": "v2.1"
   },
   {
     "id": 100319,
@@ -1208,7 +1267,8 @@
     "description": "Defeat all the Chest Mimics in the Vault Underground.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100319
+    "trophyId": 100319,
+    "version": "v2.1"
   },
   {
     "id": 100320,
@@ -1216,7 +1276,8 @@
     "description": "Defeat \"Heavyhands.\"",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 100320
+    "trophyId": 100320,
+    "version": "v2.1"
   },
   {
     "id": 100322,
@@ -1224,7 +1285,8 @@
     "description": "Defeat Coercitors: The Verdict.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100322
+    "trophyId": 100322,
+    "version": "v2.2"
   },
   {
     "id": 100323,
@@ -1232,7 +1294,8 @@
     "description": "Defeat Coercitors: The Proclamation.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100323
+    "trophyId": 100323,
+    "version": "v2.2"
   },
   {
     "id": 100324,
@@ -1240,7 +1303,8 @@
     "description": "Defeat Drakes of Welkin.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100324
+    "trophyId": 100324,
+    "version": "v2.2"
   },
   {
     "id": 100325,
@@ -1248,7 +1312,8 @@
     "description": "Defeat Knights of Twilight.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100325
+    "trophyId": 100325,
+    "version": "v2.2"
   },
   {
     "id": 100326,
@@ -1256,7 +1321,8 @@
     "description": "Defeat Chop Chop Doubles.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100326
+    "trophyId": 100326,
+    "version": "v2.2"
   },
   {
     "id": 100327,
@@ -1264,7 +1330,8 @@
     "description": "Complete all goals of Dream Patrol: Land of Swordsmanship in one attempt.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100327
+    "trophyId": 100327,
+    "version": "v2.2"
   },
   {
     "id": 100328,
@@ -1272,7 +1339,8 @@
     "description": "Complete all Dream Patrol challenges in Avinoleum.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100328
+    "trophyId": 100328,
+    "version": "v2.2"
   },
   {
     "id": 100329,
@@ -1280,7 +1348,8 @@
     "description": "Break all 4 obelisks that anchor the chains.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100329
+    "trophyId": 100329,
+    "version": "v2.2"
   },
   {
     "id": 100330,
@@ -1288,7 +1357,8 @@
     "description": "Slam all statues back to their correct positions.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100330
+    "trophyId": 100330,
+    "version": "v2.2"
   },
   {
     "id": 100331,
@@ -1296,7 +1366,8 @@
     "description": "Use the \"Door of Unity\" to teleport once",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100331
+    "trophyId": 100331,
+    "version": "v2.2"
   },
   {
     "id": 100332,
@@ -1304,7 +1375,8 @@
     "description": "Complete Cloud Platformer.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100332
+    "trophyId": 100332,
+    "version": "v2.2"
   },
   {
     "id": 100333,
@@ -1312,7 +1384,8 @@
     "description": "Find the portrait of the Blessed Maiden that looks newly painted, unaffected by time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100333
+    "trophyId": 100333,
+    "version": "v2.2"
   },
   {
     "id": 100334,
@@ -1320,7 +1393,8 @@
     "description": "Arrive at the Abyssal Crucible.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100334
+    "trophyId": 100334,
+    "version": "v2.2"
   },
   {
     "id": 100335,
@@ -1328,7 +1402,8 @@
     "description": "Complete the Gulpuff challenge in Avinoleum.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100335
+    "trophyId": 100335,
+    "version": "v2.2"
   },
   {
     "id": 100336,
@@ -1336,7 +1411,8 @@
     "description": "Complete \"The Adventures of Plushie Squad.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100336
+    "trophyId": 100336,
+    "version": "v2.2"
   },
   {
     "id": 100337,
@@ -1344,7 +1420,8 @@
     "description": "Use Gravity Calibrator once.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100337
+    "trophyId": 100337,
+    "version": "v2.2"
   },
   {
     "id": 100338,
@@ -1352,7 +1429,8 @@
     "description": "Complete \"Should the Shooting Stars Blaze.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100338
+    "trophyId": 100338,
+    "version": "v2.2"
   },
   {
     "id": 100339,
@@ -1360,7 +1438,8 @@
     "description": "Defeat all the Chest Mimics in Avinoleum.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100339
+    "trophyId": 100339,
+    "version": "v2.2"
   },
   {
     "id": 100340,
@@ -1368,7 +1447,8 @@
     "description": "Open the hidden Supply Chest.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100340
+    "trophyId": 100340,
+    "version": "v2.2"
   },
   {
     "id": 100341,
@@ -1376,7 +1456,8 @@
     "description": "Complete the 6 Overflowing Palettes in Avinoleum.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100341
+    "trophyId": 100341,
+    "version": "v2.2"
   },
   {
     "id": 100342,
@@ -1384,7 +1465,8 @@
     "description": "Reach the highest point of Avinoleum.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100342
+    "trophyId": 100342,
+    "version": "v2.2"
   },
   {
     "id": 100343,
@@ -1392,7 +1474,8 @@
     "description": "Strike the sword-wielding statue found at the Abyssal Crucible.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100343
+    "trophyId": 100343,
+    "version": "v2.2"
   },
   {
     "id": 100344,
@@ -1400,7 +1483,8 @@
     "description": "Complete Ace Wings.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100344
+    "trophyId": 100344,
+    "version": "v2.2"
   },
   {
     "id": 100351,
@@ -1408,7 +1492,8 @@
     "description": "Complete \"Fantastic Ta-das and Where to Find Them.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100351
+    "trophyId": 100351,
+    "version": "v2.4"
   },
   {
     "id": 100352,
@@ -1416,7 +1501,8 @@
     "description": "Help Sulpicia collect materials for her novel.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100352
+    "trophyId": 100352,
+    "version": "v2.4"
   },
   {
     "id": 100353,
@@ -1424,7 +1510,8 @@
     "description": "Witness Samousas's dream shatter.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100353
+    "trophyId": 100353,
+    "version": "v2.4"
   },
   {
     "id": 100354,
@@ -1432,7 +1519,8 @@
     "description": "Reach the top of the giant statue outside the Vale of Glory.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100354
+    "trophyId": 100354,
+    "version": "v2.4"
   },
   {
     "id": 100355,
@@ -1440,7 +1528,8 @@
     "description": "Learn the history behind Septimont's city walls from the Association of Architects.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100355
+    "trophyId": 100355,
+    "version": "v2.4"
   },
   {
     "id": 100356,
@@ -1448,7 +1537,8 @@
     "description": "Complete Side Quest \"Tales of the Past and Present: Avinoleum.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100356
+    "trophyId": 100356,
+    "version": "v2.4"
   },
   {
     "id": 100357,
@@ -1456,7 +1546,8 @@
     "description": "Use Hero's Slash once.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100357
+    "trophyId": 100357,
+    "version": "v2.4"
   },
   {
     "id": 100358,
@@ -1464,7 +1555,8 @@
     "description": "Use Hero's Rend once.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100358
+    "trophyId": 100358,
+    "version": "v2.4"
   },
   {
     "id": 100359,
@@ -1472,7 +1564,8 @@
     "description": "Complete all challenges in \"Gladiator's Spirit.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100359
+    "trophyId": 100359,
+    "version": "v2.4"
   },
   {
     "id": 100360,
@@ -1480,7 +1573,8 @@
     "description": "Complete Exploration Quest \"When the Sky Watches Us Meet.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100360
+    "trophyId": 100360,
+    "version": "v2.4"
   },
   {
     "id": 100361,
@@ -1488,7 +1582,8 @@
     "description": "Complete Exploration Quest \"Flames in the Deep.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100361
+    "trophyId": 100361,
+    "version": "v2.4"
   },
   {
     "id": 100362,
@@ -1496,7 +1591,8 @@
     "description": "Defeat the Kerasaurs trapped on Titanbone Expanse",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100362
+    "trophyId": 100362,
+    "version": "v2.4"
   },
   {
     "id": 100363,
@@ -1504,7 +1600,8 @@
     "description": "Complete the Underground Flight Challenge.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100363
+    "trophyId": 100363,
+    "version": "v2.4"
   },
   {
     "id": 100364,
@@ -1512,7 +1609,8 @@
     "description": "Complete the exploration of Minos Sewers.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100364
+    "trophyId": 100364,
+    "version": "v2.4"
   },
   {
     "id": 100365,
@@ -1520,7 +1618,8 @@
     "description": "Collect 55 Sonance Caskets: Septimont.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100365
+    "trophyId": 100365,
+    "version": "v2.4"
   },
   {
     "id": 100366,
@@ -1528,7 +1627,8 @@
     "description": "Complete the \"Banners Never Fall\" Challenges.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 100366
+    "trophyId": 100366,
+    "version": "v2.4"
   },
   {
     "id": 100367,
@@ -1536,7 +1636,8 @@
     "description": "Destroy Incubators in \"Shadow of Glory.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100367
+    "trophyId": 100367,
+    "version": "v2.4"
   },
   {
     "id": 100368,
@@ -1544,7 +1645,8 @@
     "description": "Drain the water in \"Flames of Heart.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100368
+    "trophyId": 100368,
+    "version": "v2.4"
   },
   {
     "id": 100369,
@@ -1552,7 +1654,8 @@
     "description": "Help Jocaresa collect Remnant Energy from the dragon bone.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 100369
+    "trophyId": 100369,
+    "version": "v2.4"
   },
   {
     "id": 100370,
@@ -1560,7 +1663,8 @@
     "description": "Complete Feyver's Flying Magic Show.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100370
+    "trophyId": 100370,
+    "version": "v2.4"
   },
   {
     "id": 100371,
@@ -1568,7 +1672,8 @@
     "description": "Clean up the dirty Plushies.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100371
+    "trophyId": 100371,
+    "version": "v2.4"
   },
   {
     "id": 100372,
@@ -1576,7 +1681,8 @@
     "description": "Complete the Torn Pages collection challenge in the Border Mountains",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100372
+    "trophyId": 100372,
+    "version": "v2.4"
   },
   {
     "id": 100373,
@@ -1584,7 +1690,8 @@
     "description": "Decipher the puzzles on the mysterious stele.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100373
+    "trophyId": 100373,
+    "version": "v2.4"
   },
   {
     "id": 100374,
@@ -1592,7 +1699,8 @@
     "description": "Complete all challenges in Leap of Glory.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100374
+    "trophyId": 100374,
+    "version": "v2.4"
   },
   {
     "id": 100375,
@@ -1600,7 +1708,8 @@
     "description": "Complete all Dream Contagion challenges in Septimont.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100375
+    "trophyId": 100375,
+    "version": "v2.4"
   },
   {
     "id": 100376,
@@ -1608,7 +1717,8 @@
     "description": "Defeat Trio of Drakes.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100376
+    "trophyId": 100376,
+    "version": "v2.4"
   },
   {
     "id": 100377,
@@ -1616,7 +1726,8 @@
     "description": "Defeat Flamecrest & Frostcrest.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100377
+    "trophyId": 100377,
+    "version": "v2.4"
   },
   {
     "id": 100378,
@@ -1624,7 +1735,8 @@
     "description": "Defeat Thundercrest & Galecrest.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100378
+    "trophyId": 100378,
+    "version": "v2.4"
   },
   {
     "id": 100379,
@@ -1632,7 +1744,8 @@
     "description": "Defeat Lightcrest & Abysscrest.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100379
+    "trophyId": 100379,
+    "version": "v2.4"
   },
   {
     "id": 100380,
@@ -1640,7 +1753,8 @@
     "description": "Defeat Omens of Dark Tide.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100380
+    "trophyId": 100380,
+    "version": "v2.4"
   },
   {
     "id": 100381,
@@ -1648,7 +1762,8 @@
     "description": "Defeat Sinister Lurkers.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100381
+    "trophyId": 100381,
+    "version": "v2.4"
   },
   {
     "id": 100382,
@@ -1656,7 +1771,8 @@
     "description": "Invite Resonators to the Thermes Baths for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100382
+    "trophyId": 100382,
+    "version": "v2.4"
   },
   {
     "id": 100390,
@@ -1664,7 +1780,8 @@
     "description": "Use Orchestration ability to navigate through the chaotic device.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100390
+    "trophyId": 100390,
+    "version": "v2.5"
   },
   {
     "id": 100391,
@@ -1672,7 +1789,8 @@
     "description": "Perform worship gesture in the lower plaza of the Sanctuary of Faith.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100391
+    "trophyId": 100391,
+    "version": "v2.5"
   },
   {
     "id": 100392,
@@ -1680,7 +1798,8 @@
     "description": "Complete Triptych Chest challenge for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100392
+    "trophyId": 100392,
+    "version": "v2.5"
   },
   {
     "id": 100393,
@@ -1688,7 +1807,8 @@
     "description": "Catch Painted Mantis Shrimp for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100393
+    "trophyId": 100393,
+    "version": "v2.5"
   },
   {
     "id": 100394,
@@ -1696,7 +1816,8 @@
     "description": "Complete \"The Sunken Elegy.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100394
+    "trophyId": 100394,
+    "version": "v2.5"
   },
   {
     "id": 100395,
@@ -1704,7 +1825,8 @@
     "description": "Complete three Orchestration challenges to unlock the full melody in \"Dreamcatchers in the Secret Gardens.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100395
+    "trophyId": 100395,
+    "version": "v2.5"
   },
   {
     "id": 100396,
@@ -1712,7 +1834,8 @@
     "description": "Try to fish the violin out of the well 3 times in the Lost Beyond.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100396
+    "trophyId": 100396,
+    "version": "v2.5"
   },
   {
     "id": 100397,
@@ -1720,7 +1843,8 @@
     "description": "Defeat all the enemies in the Nightmare Nest of the Fabricatorium.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 100397
+    "trophyId": 100397,
+    "version": "v2.5"
   },
   {
     "id": 100398,
@@ -1728,7 +1852,8 @@
     "description": "Ride the current for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100398
+    "trophyId": 100398,
+    "version": "v2.5"
   },
   {
     "id": 100401,
@@ -2022,7 +2147,8 @@
     "description": "Catch a Titanium Mackerel in the Riccioli Islands.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100438
+    "trophyId": 100438,
+    "version": "v2.1"
   },
   {
     "id": 100439,
@@ -2030,7 +2156,8 @@
     "description": "Catch and deliver a Pelagic Wyrm in the Riccioli Islands.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100439
+    "trophyId": 100439,
+    "version": "v2.1"
   },
   {
     "id": 100440,
@@ -2038,7 +2165,8 @@
     "description": "Unlock all Gold Trophies in the Index.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100440
+    "trophyId": 100440,
+    "version": "v2.1"
   },
   {
     "id": 100441,
@@ -2046,7 +2174,8 @@
     "description": "Unlock all Silver Trophies in the Index.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100441
+    "trophyId": 100441,
+    "version": "v2.1"
   },
   {
     "id": 100442,
@@ -2054,7 +2183,8 @@
     "description": "Unlock all entries in the Index.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 100442
+    "trophyId": 100442,
+    "version": "v2.1"
   },
   {
     "id": 100443,
@@ -2062,7 +2192,8 @@
     "description": "Obtain 10,000 Riccioli Fishery Coins from Planck.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100443
+    "trophyId": 100443,
+    "version": "v2.1"
   },
   {
     "id": 100444,
@@ -2070,7 +2201,8 @@
     "description": "Unlock all Fishing Abilities.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100444
+    "trophyId": 100444,
+    "version": "v2.1"
   },
   {
     "id": 100445,
@@ -2078,7 +2210,8 @@
     "description": "Catch and deliver both the original and Mutant species of Til the Fin-ish in the Riccioli Islands.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100445
+    "trophyId": 100445,
+    "version": "v2.1"
   },
   {
     "id": 100501,
@@ -2095,7 +2228,8 @@
     "description": "Reach 100% Exploration Progress in 3 areas of the Ragunna region.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100701
+    "trophyId": 100701,
+    "version": "v2.0"
   },
   {
     "id": 100702,
@@ -2103,7 +2237,8 @@
     "description": "Reach 100% Exploration Progress in 5 areas of the Ragunna region.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100702
+    "trophyId": 100702,
+    "version": "v2.0"
   },
   {
     "id": 100703,
@@ -2111,7 +2246,8 @@
     "description": "Reach 100% Exploration Progress in 8 areas of the Ragunna region.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 100703
+    "trophyId": 100703,
+    "version": "v2.0"
   },
   {
     "id": 100710,
@@ -2119,7 +2255,8 @@
     "description": "Invite 1 Resonator to share the Gondola.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100710
+    "trophyId": 100710,
+    "version": "v2.0"
   },
   {
     "id": 100720,
@@ -2127,7 +2264,8 @@
     "description": "Unlock 20 songs at the Aria Mummer.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 100720
+    "trophyId": 100720,
+    "version": "v2.0"
   },
   {
     "id": 100721,
@@ -2135,7 +2273,8 @@
     "description": "Activate all Resonance Beacons in Ragunna.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 100721
+    "trophyId": 100721,
+    "version": "v2.0"
   },
   {
     "id": 101101,
@@ -2143,7 +2282,8 @@
     "description": "Restore the entire Route Network in Lahai-Roi.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 101101
+    "trophyId": 101101,
+    "version": "v3.0"
   },
   {
     "id": 101102,
@@ -2151,7 +2291,8 @@
     "description": "Complete all Peaks of Prestige challenges in Lahai-Roi.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 101102
+    "trophyId": 101102,
+    "version": "v3.0"
   },
   {
     "id": 101103,
@@ -2159,7 +2300,8 @@
     "description": "Collect all cards in the Lahai-Roi version of Peaks of Prestige.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 101103
+    "trophyId": 101103,
+    "version": "v3.0"
   },
   {
     "id": 101104,
@@ -2167,7 +2309,8 @@
     "description": "Complete the first Peaks of Prestige duel in Startorch Academy.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101104
+    "trophyId": 101104,
+    "version": "v3.0"
   },
   {
     "id": 101105,
@@ -2175,7 +2318,8 @@
     "description": "Purge the Tacet Discords of Void Storm Zone I in the borderland between Etching Plains and Fangspire Chasm.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101105
+    "trophyId": 101105,
+    "version": "v3.0"
   },
   {
     "id": 101106,
@@ -2183,7 +2327,8 @@
     "description": "Purge the Tacet Discords of Void Storm Zone II in Exospine Barrows (Emberfall Barrows).",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 101106
+    "trophyId": 101106,
+    "version": "v3.0"
   },
   {
     "id": 101107,
@@ -2191,7 +2336,8 @@
     "description": "Purge the Tacet Discords of Void Storm Zone III in Sundermere.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101107
+    "trophyId": 101107,
+    "version": "v3.0"
   },
   {
     "id": 101108,
@@ -2199,7 +2345,8 @@
     "description": "Purge the Tacet Discords of Void Storm Zone IV in Giant's Gaze.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101108
+    "trophyId": 101108,
+    "version": "v3.0"
   },
   {
     "id": 101109,
@@ -2207,7 +2354,8 @@
     "description": "Purge the Tacet Discords of Void Storm Zone V in the borderland between Etching Plains and Startorch Academy.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101109
+    "trophyId": 101109,
+    "version": "v3.0"
   },
   {
     "id": 101110,
@@ -2215,7 +2363,8 @@
     "description": "Purge the Tacet Discords of Void Storm Zone VI in the Stagnant Run.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101110
+    "trophyId": 101110,
+    "version": "v3.0"
   },
   {
     "id": 101111,
@@ -2223,7 +2372,8 @@
     "description": "Purge the Tacet Discords of Void Storm Zone VII at Argentflare Drapes in Jetrified Ridge.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101111
+    "trophyId": 101111,
+    "version": "v3.0"
   },
   {
     "id": 101112,
@@ -2231,7 +2381,8 @@
     "description": "Purge the Tacet Discords of all Void Storm Zones in Lahai-Roi.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101112
+    "trophyId": 101112,
+    "version": "v3.0"
   },
   {
     "id": 101113,
@@ -2239,7 +2390,8 @@
     "description": "Clear the Tacet Discords in Roya Frostlands - Void Storm Zone I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101113
+    "trophyId": 101113,
+    "version": "v3.1"
   },
   {
     "id": 101114,
@@ -2247,7 +2399,8 @@
     "description": "Clear the Tacet Discords in Roya Frostlands - Void Storm Zone II.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101114
+    "trophyId": 101114,
+    "version": "v3.1"
   },
   {
     "id": 101115,
@@ -2255,7 +2408,8 @@
     "description": "Clear the Tacet Discords in Roya Frostlands - Void Storm Zone III.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101115
+    "trophyId": 101115,
+    "version": "v3.1"
   },
   {
     "id": 101116,
@@ -2263,7 +2417,8 @@
     "description": "Clear the Tacet Discords in Roya Frostlands - Void Storm Zone IV.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101116
+    "trophyId": 101116,
+    "version": "v3.1"
   },
   {
     "id": 101117,
@@ -2271,7 +2426,8 @@
     "description": "Clear the Tacet Discords in Roya Frostlands - Void Storm Zone V.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101117
+    "trophyId": 101117,
+    "version": "v3.1"
   },
   {
     "id": 101118,
@@ -2279,7 +2435,8 @@
     "description": "Clear the Tacet Discords of all Void Storm Zones in Roya Frostlands.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 101118
+    "trophyId": 101118,
+    "version": "v3.1"
   },
   {
     "id": 110101,
@@ -2315,7 +2472,8 @@
     "description": "Use all Utility modules.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 110104
+    "trophyId": 110104,
+    "version": "v1.2"
   },
   {
     "id": 110105,
@@ -2819,7 +2977,8 @@
     "description": "Complete Main Quest: When the Night Knocks",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200314
+    "trophyId": 200314,
+    "version": "v2.0"
   },
   {
     "id": 200315,
@@ -2827,7 +2986,8 @@
     "description": "Obtain 1200 Dream Shards.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200315
+    "trophyId": 200315,
+    "version": "v2.0"
   },
   {
     "id": 200316,
@@ -2835,7 +2995,8 @@
     "description": "Activate \"Dream Link\" once.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200316
+    "trophyId": 200316,
+    "version": "v2.0"
   },
   {
     "id": 200317,
@@ -2843,7 +3004,8 @@
     "description": "Complete \"If On a Rainy Night a Family.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200317
+    "trophyId": 200317,
+    "version": "v2.0"
   },
   {
     "id": 200318,
@@ -2851,7 +3013,8 @@
     "description": "Complete \"Starry is the Night.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200318
+    "trophyId": 200318,
+    "version": "v2.0"
   },
   {
     "id": 200320,
@@ -2859,7 +3022,8 @@
     "description": "Learn the recipe for \"Opal\" from Carlotta.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200320
+    "trophyId": 200320,
+    "version": "v2.0"
   },
   {
     "id": 200321,
@@ -2867,7 +3031,8 @@
     "description": "Complete \"Sail Day, Captain!\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200321
+    "trophyId": 200321,
+    "version": "v2.1"
   },
   {
     "id": 200322,
@@ -2875,7 +3040,8 @@
     "description": "Complete \"A Fleeting Night's Dream.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200322
+    "trophyId": 200322,
+    "version": "v2.2"
   },
   {
     "id": 200323,
@@ -2883,7 +3049,8 @@
     "description": "Complete \"Dream Syndrome.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200323
+    "trophyId": 200323,
+    "version": "v2.2"
   },
   {
     "id": 200324,
@@ -2891,7 +3058,8 @@
     "description": "Enjoy tea with Cantarella on a quiet afternoon.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200324
+    "trophyId": 200324,
+    "version": "v2.2"
   },
   {
     "id": 200325,
@@ -2899,7 +3067,8 @@
     "description": "Complete \"A Blaze in the Dark.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200325
+    "trophyId": 200325,
+    "version": "v2.3"
   },
   {
     "id": 200326,
@@ -2907,7 +3076,8 @@
     "description": "Enjoy the view of Ragunna City at night.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200326
+    "trophyId": 200326,
+    "version": "v2.3"
   },
   {
     "id": 200327,
@@ -2915,7 +3085,8 @@
     "description": "Work with Zani to pass the ventilation tunnel in \"A Blaze in the Dark\" for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200327
+    "trophyId": 200327,
+    "version": "v2.3"
   },
   {
     "id": 200328,
@@ -2923,7 +3094,8 @@
     "description": "Defeat Talos in \"A Blaze in the Dark.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200328
+    "trophyId": 200328,
+    "version": "v2.3"
   },
   {
     "id": 200330,
@@ -2931,7 +3103,8 @@
     "description": "Infer all possibilities in \"Your Summer Will Never Wither.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200330
+    "trophyId": 200330,
+    "version": "v2.3"
   },
   {
     "id": 200331,
@@ -2939,7 +3112,8 @@
     "description": "Cook the Septimont beverage endorsed by Lupa with Lupa herself.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 200331
+    "trophyId": 200331,
+    "version": "v2.4"
   },
   {
     "id": 200332,
@@ -2947,7 +3121,8 @@
     "description": "Complete \"Flames of Heart\" epilogue and talk to Lupa.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200332
+    "trophyId": 200332,
+    "version": "v2.4"
   },
   {
     "id": 200333,
@@ -2955,7 +3130,8 @@
     "description": "Complete \"Flames of Heart\" epilogue and talk to Cartethyia.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200333
+    "trophyId": 200333,
+    "version": "v2.4"
   },
   {
     "id": 200334,
@@ -2963,7 +3139,8 @@
     "description": "Complete \"Flames of Heart\" epilogue and talk to Buling.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200334
+    "trophyId": 200334,
+    "version": "v2.4"
   },
   {
     "id": 200335,
@@ -2971,7 +3148,8 @@
     "description": "Meet Lupa in the arena and talk to her.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200335
+    "trophyId": 200335,
+    "version": "v2.4"
   },
   {
     "id": 200336,
@@ -2979,7 +3157,8 @@
     "description": "Meet Phrolova and talk to her in the Lost Beyond.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200336
+    "trophyId": 200336,
+    "version": "v2.5"
   },
   {
     "id": 200337,
@@ -2987,7 +3166,8 @@
     "description": "Enter the Lost Beyond again after completing \"Dreamcatchers in the Secret Gardens.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200337
+    "trophyId": 200337,
+    "version": "v2.5"
   },
   {
     "id": 200338,
@@ -2995,7 +3175,8 @@
     "description": "Play a piece of music on the gramophone in Phrolova's home.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200338
+    "trophyId": 200338,
+    "version": "v2.5"
   },
   {
     "id": 200339,
@@ -3003,7 +3184,8 @@
     "description": "Witness Augusta's past in the Murmurstown Sonoro Sphere.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200339
+    "trophyId": 200339,
+    "version": "v2.6"
   },
   {
     "id": 200340,
@@ -3011,7 +3193,8 @@
     "description": "Bring Iuno out of Chaos.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200340
+    "trophyId": 200340,
+    "version": "v2.6"
   },
   {
     "id": 200341,
@@ -3019,7 +3202,8 @@
     "description": "Reunite and part ways with Galbrena in the Black Shores.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200341
+    "trophyId": 200341,
+    "version": "v2.7"
   },
   {
     "id": 200342,
@@ -3027,7 +3211,8 @@
     "description": "Open your eyes and accept the \"surprise\" prepared by Cartethyia.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200342
+    "trophyId": 200342,
+    "version": "v2.7"
   },
   {
     "id": 200343,
@@ -3035,7 +3220,8 @@
     "description": "Rehearse and perform with Brant.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200343
+    "trophyId": 200343,
+    "version": "v2.7"
   },
   {
     "id": 200344,
@@ -3043,7 +3229,8 @@
     "description": "Listen to Phoebe's morning prayers.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200344
+    "trophyId": 200344,
+    "version": "v2.7"
   },
   {
     "id": 200345,
@@ -3051,7 +3238,8 @@
     "description": "Listen to music with Ciaccona.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200345
+    "trophyId": 200345,
+    "version": "v2.7"
   },
   {
     "id": 200346,
@@ -3059,7 +3247,8 @@
     "description": "Go to the Troupe of Fools and prepare for the stage play with Roccia.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200346
+    "trophyId": 200346,
+    "version": "v2.7"
   },
   {
     "id": 200347,
@@ -3067,7 +3256,8 @@
     "description": "Spar with Augusta or tour Septimont with her.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200347
+    "trophyId": 200347,
+    "version": "v2.7"
   },
   {
     "id": 200348,
@@ -3075,7 +3265,8 @@
     "description": "Head to the edge of a moonlit evening and savor the moon with Iuno.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200348
+    "trophyId": 200348,
+    "version": "v2.7"
   },
   {
     "id": 200349,
@@ -3083,7 +3274,8 @@
     "description": "Walk with Chisa in Sakura Quarter after the disaster.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200349
+    "trophyId": 200349,
+    "version": "v2.8"
   },
   {
     "id": 200350,
@@ -3091,7 +3283,8 @@
     "description": "Return to the Black Shores and learn about Chisa's past on the water platform.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200350
+    "trophyId": 200350,
+    "version": "v2.8"
   },
   {
     "id": 200351,
@@ -3099,7 +3292,8 @@
     "description": "Admire the starry sky with Mornye.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200351
+    "trophyId": 200351,
+    "version": "v3.0"
   },
   {
     "id": 200352,
@@ -3107,7 +3301,8 @@
     "description": "Examine the photo album in the cabin after completing \"The Star That Voyages Far.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200352
+    "trophyId": 200352,
+    "version": "v3.1"
   },
   {
     "id": 200401,
@@ -3115,7 +3310,8 @@
     "description": "Interact with a Tubpup once.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200401
+    "trophyId": 200401,
+    "version": "v2.0"
   },
   {
     "id": 200402,
@@ -3123,7 +3319,8 @@
     "description": "Interact with 5 Tubpups in the Ragunna City.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200402
+    "trophyId": 200402,
+    "version": "v2.0"
   },
   {
     "id": 200403,
@@ -3131,7 +3328,8 @@
     "description": "Witness the end of Paolo.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200403
+    "trophyId": 200403,
+    "version": "v2.0"
   },
   {
     "id": 200404,
@@ -3139,7 +3337,8 @@
     "description": "Interact with C-MOSS once.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200404
+    "trophyId": 200404,
+    "version": "v2.0"
   },
   {
     "id": 200405,
@@ -3147,7 +3346,8 @@
     "description": "Let Signor Octopus blow the horn at midnight.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200405
+    "trophyId": 200405,
+    "version": "v2.0"
   },
   {
     "id": 200406,
@@ -3155,7 +3355,8 @@
     "description": "Run, climb or attack in the Order of the Deep.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200406
+    "trophyId": 200406,
+    "version": "v2.0"
   },
   {
     "id": 200407,
@@ -3163,7 +3364,8 @@
     "description": "Help Faro obtain the \"Sword in the Rock.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200407
+    "trophyId": 200407,
+    "version": "v2.0"
   },
   {
     "id": 200408,
@@ -3171,7 +3373,8 @@
     "description": "Complete \"Woman in Mask.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200408
+    "trophyId": 200408,
+    "version": "v2.1"
   },
   {
     "id": 200409,
@@ -3179,7 +3382,8 @@
     "description": "Complete \"The Sailor's Treasure.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200409
+    "trophyId": 200409,
+    "version": "v2.1"
   },
   {
     "id": 200410,
@@ -3187,7 +3391,8 @@
     "description": "Find all of Ahab's diary pages.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200410
+    "trophyId": 200410,
+    "version": "v2.1"
   },
   {
     "id": 200411,
@@ -3195,7 +3400,8 @@
     "description": "Talk to Cavino during both the daytime and nighttime.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200411
+    "trophyId": 200411,
+    "version": "v2.2"
   },
   {
     "id": 200412,
@@ -3203,7 +3409,8 @@
     "description": "Talk to Ermelinda in the study.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200412
+    "trophyId": 200412,
+    "version": "v2.2"
   },
   {
     "id": 200413,
@@ -3211,7 +3418,8 @@
     "description": "After claiming the Peaks of Prestige championship, challenge and defeat Danvers, Fulvia, and Furius.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200413
+    "trophyId": 200413,
+    "version": "v2.4"
   },
   {
     "id": 200414,
@@ -3219,7 +3427,8 @@
     "description": "After claiming the Peaks of Prestige championship, challenge and defeat Liliania.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200414
+    "trophyId": 200414,
+    "version": "v2.4"
   },
   {
     "id": 200415,
@@ -3227,7 +3436,8 @@
     "description": "After claiming the Peaks of Prestige championship, challenge and defeat Raul.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200415
+    "trophyId": 200415,
+    "version": "v2.4"
   },
   {
     "id": 200416,
@@ -3235,7 +3445,8 @@
     "description": "After claiming the Peaks of Prestige championship, challenge and defeat the patients.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200416
+    "trophyId": 200416,
+    "version": "v2.4"
   },
   {
     "id": 200417,
@@ -3243,7 +3454,8 @@
     "description": "Listen to the whispers from Mya's broken blade.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200417
+    "trophyId": 200417,
+    "version": "v2.4"
   },
   {
     "id": 200418,
@@ -3251,7 +3463,8 @@
     "description": "Offer guidance to the job-seeking Gladiator in Septimont and encounter him again in Ragunna.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200418
+    "trophyId": 200418,
+    "version": "v2.4"
   },
   {
     "id": 200419,
@@ -3259,7 +3472,8 @@
     "description": "Assist the Septimont officer in capturing the smuggler.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200419
+    "trophyId": 200419,
+    "version": "v2.4"
   },
   {
     "id": 200420,
@@ -3267,7 +3481,8 @@
     "description": "Witness three Gladiators in Septimont being tricked into buying faulty gear and see the merchant get punished for that.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200420
+    "trophyId": 200420,
+    "version": "v2.4"
   },
   {
     "id": 200421,
@@ -3275,7 +3490,8 @@
     "description": "Complete the hidden conversation and propose a solution to resolve the conflict between two rivals.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200421
+    "trophyId": 200421,
+    "version": "v2.4"
   },
   {
     "id": 200422,
@@ -3283,7 +3499,8 @@
     "description": "Talk to the hotel manager and learn about the banquet with the Ragunna theme.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200422
+    "trophyId": 200422,
+    "version": "v2.4"
   },
   {
     "id": 200423,
@@ -3291,7 +3508,8 @@
     "description": "Discover and talk to the Black Shores' Bloom Bearer in Septimont.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200423
+    "trophyId": 200423,
+    "version": "v2.4"
   },
   {
     "id": 200424,
@@ -3299,7 +3517,8 @@
     "description": "Try out Saltimbocca.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200424
+    "trophyId": 200424,
+    "version": "v2.4"
   },
   {
     "id": 200425,
@@ -3307,7 +3526,8 @@
     "description": "Form a team with the children in Septimont.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200425
+    "trophyId": 200425,
+    "version": "v2.4"
   },
   {
     "id": 200426,
@@ -3315,7 +3535,8 @@
     "description": "Talk to Aurus who's tuning up Ta-da and find out what Ta-da is for.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200426
+    "trophyId": 200426,
+    "version": "v2.4"
   },
   {
     "id": 200427,
@@ -3323,7 +3544,8 @@
     "description": "Assist the municipal workers in repairing the broadcast Echo by any means.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200427
+    "trophyId": 200427,
+    "version": "v2.5"
   },
   {
     "id": 200428,
@@ -3331,7 +3553,8 @@
     "description": "Overhear a discussion about the mightiest gladiator in the Ephor's Palace.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200428
+    "trophyId": 200428,
+    "version": "v2.5"
   },
   {
     "id": 200429,
@@ -3339,7 +3562,8 @@
     "description": "Overhear the Acolytes talking about Fenrico in the Cathedral of Mercury.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200429
+    "trophyId": 200429,
+    "version": "v2.5"
   },
   {
     "id": 200430,
@@ -3347,7 +3571,8 @@
     "description": "Talk to Triss in the Lost Beyond after completing \"Dreamcatchers in the Secret Gardens.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200430
+    "trophyId": 200430,
+    "version": "v2.5"
   },
   {
     "id": 200431,
@@ -3355,7 +3580,8 @@
     "description": "Distribute all the petals in the ceremony as the Rosebearer.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200431
+    "trophyId": 200431,
+    "version": "v2.6"
   },
   {
     "id": 200432,
@@ -3363,7 +3589,8 @@
     "description": "Complete \"May Applause Greet You.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200432
+    "trophyId": 200432,
+    "version": "v2.6"
   },
   {
     "id": 200433,
@@ -3371,7 +3598,8 @@
     "description": "Complete \"Dream of a Rusted Sword.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200433
+    "trophyId": 200433,
+    "version": "v2.6"
   },
   {
     "id": 200434,
@@ -3379,7 +3607,8 @@
     "description": "Talk to the Priestess's Phantom in Murmurstown.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200434
+    "trophyId": 200434,
+    "version": "v2.6"
   },
   {
     "id": 200435,
@@ -3387,7 +3616,8 @@
     "description": "Offer flowers to the spirits in Murmurstown.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200435
+    "trophyId": 200435,
+    "version": "v2.6"
   },
   {
     "id": 200436,
@@ -3395,7 +3625,8 @@
     "description": "Talk to a Phantom in the Murmurstown Sonoro Sphere.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200436
+    "trophyId": 200436,
+    "version": "v2.6"
   },
   {
     "id": 200437,
@@ -3403,7 +3634,8 @@
     "description": "Receive congratulations from three Septimotians in the Ephor's Palace after competing \"By Sun's Burning Hand.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200437
+    "trophyId": 200437,
+    "version": "v2.6"
   },
   {
     "id": 200438,
@@ -3411,7 +3643,8 @@
     "description": "Witness the story between Kyara and Silveira in Hunter's Den.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200438
+    "trophyId": 200438,
+    "version": "v2.6"
   },
   {
     "id": 200439,
@@ -3419,7 +3652,8 @@
     "description": "Deliver Chloe's elixir to those rebuilding Old District.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200439
+    "trophyId": 200439,
+    "version": "v2.7"
   },
   {
     "id": 200440,
@@ -3427,7 +3661,8 @@
     "description": "Find a suitable owner for the antique from Old District.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200440
+    "trophyId": 200440,
+    "version": "v2.7"
   },
   {
     "id": 200441,
@@ -3435,7 +3670,8 @@
     "description": "Help rebuild Old District.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200441
+    "trophyId": 200441,
+    "version": "v2.7"
   },
   {
     "id": 200442,
@@ -3443,7 +3679,8 @@
     "description": "Complete \"Mummer's Wish.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200442
+    "trophyId": 200442,
+    "version": "v2.7"
   },
   {
     "id": 200443,
@@ -3451,7 +3688,8 @@
     "description": "Complete Eri's photography request and capture Honami's scenery.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200443
+    "trophyId": 200443,
+    "version": "v2.8"
   },
   {
     "id": 200444,
@@ -3459,7 +3697,8 @@
     "description": "Read the Pioneer Association's letter to Eri.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200444
+    "trophyId": 200444,
+    "version": "v2.8"
   },
   {
     "id": 200445,
@@ -3467,7 +3706,8 @@
     "description": "Talk to the mysterious black cat at Honami Crossing",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200445
+    "trophyId": 200445,
+    "version": "v2.8"
   },
   {
     "id": 200446,
@@ -3475,7 +3715,8 @@
     "description": "Help Shingo confess his feelings to Kumi.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200446
+    "trophyId": 200446,
+    "version": "v2.8"
   },
   {
     "id": 200447,
@@ -3483,7 +3724,8 @@
     "description": "Find all Missing Namipons.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200447
+    "trophyId": 200447,
+    "version": "v2.8"
   },
   {
     "id": 200448,
@@ -3491,7 +3733,8 @@
     "description": "Return to the Black Shores and learn about Sumika's past in Error Cell.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200448
+    "trophyId": 200448,
+    "version": "v2.8"
   },
   {
     "id": 200449,
@@ -3499,7 +3742,8 @@
     "description": "Return to the Black Shores and learn about Platya's past on the water platform.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200449
+    "trophyId": 200449,
+    "version": "v2.8"
   },
   {
     "id": 200450,
@@ -3507,7 +3751,8 @@
     "description": "Host a gathering for stray cats near the cafe.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200450
+    "trophyId": 200450,
+    "version": "v2.8"
   },
   {
     "id": 200451,
@@ -3515,7 +3760,8 @@
     "description": "Take photos on the cafe terrace for the Left Behind girl.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200451
+    "trophyId": 200451,
+    "version": "v2.8"
   },
   {
     "id": 200452,
@@ -3523,7 +3769,8 @@
     "description": "Find all the children playing hide-and-seek around the pedway.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200452
+    "trophyId": 200452,
+    "version": "v2.8"
   },
   {
     "id": 200504,
@@ -3531,7 +3778,8 @@
     "description": "Restore the stained glass paintings in the Hallowed Reach.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200504
+    "trophyId": 200504,
+    "version": "v2.0"
   },
   {
     "id": 200505,
@@ -3539,7 +3787,8 @@
     "description": "Complete \"What Yesterday Wept, Today Doth Sing.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200505
+    "trophyId": 200505,
+    "version": "v2.0"
   },
   {
     "id": 200506,
@@ -3547,7 +3796,8 @@
     "description": "Complete the Troupe's performance at the Carnevale.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200506
+    "trophyId": 200506,
+    "version": "v2.0"
   },
   {
     "id": 200507,
@@ -3555,7 +3805,8 @@
     "description": "Empathize with Dragon of Dirge.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200507
+    "trophyId": 200507,
+    "version": "v2.0"
   },
   {
     "id": 200508,
@@ -3563,7 +3814,8 @@
     "description": "Rehearse with Carlotta.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200508
+    "trophyId": 200508,
+    "version": "v2.0"
   },
   {
     "id": 200509,
@@ -3571,7 +3823,8 @@
     "description": "Get prepared for the Carnevale performance.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 200509
+    "trophyId": 200509,
+    "version": "v2.0"
   },
   {
     "id": 200510,
@@ -3579,7 +3832,8 @@
     "description": "Enter the Ragunna City.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200510
+    "trophyId": 200510,
+    "version": "v2.0"
   },
   {
     "id": 200511,
@@ -3587,7 +3841,8 @@
     "description": "Complete \"The Sacred Breeze So Often Breathes.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200511
+    "trophyId": 200511,
+    "version": "v2.0"
   },
   {
     "id": 200512,
@@ -3595,7 +3850,8 @@
     "description": "Complete \"Veils Off in Sun or Shadow.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200512
+    "trophyId": 200512,
+    "version": "v2.0"
   },
   {
     "id": 200513,
@@ -3603,7 +3859,8 @@
     "description": "Complete \"Old Man and the Whale.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200513
+    "trophyId": 200513,
+    "version": "v2.1"
   },
   {
     "id": 200514,
@@ -3611,7 +3868,8 @@
     "description": "Complete \"Old Captain's Log II.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200514
+    "trophyId": 200514,
+    "version": "v2.1"
   },
   {
     "id": 200515,
@@ -3619,7 +3877,8 @@
     "description": "Finish repairing \"Pequod.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200515
+    "trophyId": 200515,
+    "version": "v2.1"
   },
   {
     "id": 200516,
@@ -3627,7 +3886,8 @@
     "description": "Encounter Ghost Medusa in the Riccioli Islands for the first time.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200516
+    "trophyId": 200516,
+    "version": "v2.1"
   },
   {
     "id": 200517,
@@ -3635,7 +3895,8 @@
     "description": "Getting attacked by Cetus the Tidebreaker in the Riccioli Islands.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200517
+    "trophyId": 200517,
+    "version": "v2.1"
   },
   {
     "id": 200518,
@@ -3643,7 +3904,8 @@
     "description": "Go fishing for the first time in the Riccioli Islands.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200518
+    "trophyId": 200518,
+    "version": "v2.1"
   },
   {
     "id": 200519,
@@ -3651,7 +3913,8 @@
     "description": "Light up all four Lighthouses in the Riccioli Islands.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200519
+    "trophyId": 200519,
+    "version": "v2.1"
   },
   {
     "id": 200520,
@@ -3659,7 +3922,8 @@
     "description": "Complete \"The Maiden, The Defier, The Death Crier.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200520
+    "trophyId": 200520,
+    "version": "v2.2"
   },
   {
     "id": 200521,
@@ -3667,7 +3931,8 @@
     "description": "Reach Avinoleum for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200521
+    "trophyId": 200521,
+    "version": "v2.2"
   },
   {
     "id": 200522,
@@ -3675,7 +3940,8 @@
     "description": "Complete the challenge in Avinoleum.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200522
+    "trophyId": 200522,
+    "version": "v2.2"
   },
   {
     "id": 200523,
@@ -3683,7 +3949,8 @@
     "description": "Complete \"Your Summer Will Never Wither.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200523
+    "trophyId": 200523,
+    "version": "v2.3"
   },
   {
     "id": 200524,
@@ -3691,7 +3958,8 @@
     "description": "Complete \"Shadow of Glory.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200524
+    "trophyId": 200524,
+    "version": "v2.4"
   },
   {
     "id": 200525,
@@ -3699,7 +3967,8 @@
     "description": "Complete \"Flames of Heart.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200525
+    "trophyId": 200525,
+    "version": "v2.4"
   },
   {
     "id": 200526,
@@ -3707,7 +3976,8 @@
     "description": "Make the sunken Old District of Septimont resurface again.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200526
+    "trophyId": 200526,
+    "version": "v2.4"
   },
   {
     "id": 200527,
@@ -3715,7 +3985,8 @@
     "description": "Complete the Peaks of Prestige quests and claim the championship.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200527
+    "trophyId": 200527,
+    "version": "v2.4"
   },
   {
     "id": 200528,
@@ -3723,7 +3994,8 @@
     "description": "Complete \"Dreamcatchers in the Secret Gardens.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200528
+    "trophyId": 200528,
+    "version": "v2.5"
   },
   {
     "id": 200529,
@@ -3731,7 +4003,8 @@
     "description": "Complete \"Rust, Sword and the Sun.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200529
+    "trophyId": 200529,
+    "version": "v2.5"
   },
   {
     "id": 200530,
@@ -3739,7 +4012,8 @@
     "description": "Talk to Abby at the entrance of the Lost Beyond.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200530
+    "trophyId": 200530,
+    "version": "v2.5"
   },
   {
     "id": 200531,
@@ -3747,7 +4021,8 @@
     "description": "Return to Ragunna and share the information with everyone.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200531
+    "trophyId": 200531,
+    "version": "v2.5"
   },
   {
     "id": 200532,
@@ -3755,7 +4030,8 @@
     "description": "Visit Murmurstown of the past in the Sonoro Sphere for the first time via Waystone.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200532
+    "trophyId": 200532,
+    "version": "v2.6"
   },
   {
     "id": 200533,
@@ -3763,7 +4039,8 @@
     "description": "Complete \"By Sun's Burning Hand.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200533
+    "trophyId": 200533,
+    "version": "v2.6"
   },
   {
     "id": 200534,
@@ -3771,7 +4048,8 @@
     "description": "Complete \"By Moon's Fated Light.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200534
+    "trophyId": 200534,
+    "version": "v2.6"
   },
   {
     "id": 200535,
@@ -3779,7 +4057,8 @@
     "description": "Defeat a Corrosaurus for the second time.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200535
+    "trophyId": 200535,
+    "version": "v2.6"
   },
   {
     "id": 200536,
@@ -3787,7 +4066,8 @@
     "description": "Watch Iuno ignite the Sacred Flames in Maroonwood.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200536
+    "trophyId": 200536,
+    "version": "v2.6"
   },
   {
     "id": 200537,
@@ -3795,7 +4075,8 @@
     "description": "Arrive at the Hunter's Den for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200537
+    "trophyId": 200537,
+    "version": "v2.6"
   },
   {
     "id": 200538,
@@ -3803,7 +4084,8 @@
     "description": "Listen to Ciaccona recount all three stories about Qiuyuan.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200538
+    "trophyId": 200538,
+    "version": "v2.7"
   },
   {
     "id": 200539,
@@ -3811,7 +4093,8 @@
     "description": "Find Qiuyuan in Ragunna and bid him farewell.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200539
+    "trophyId": 200539,
+    "version": "v2.7"
   },
   {
     "id": 200540,
@@ -3819,7 +4102,8 @@
     "description": "Complete \"The Bygone Shall Always Return.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200540
+    "trophyId": 200540,
+    "version": "v2.7"
   },
   {
     "id": 200541,
@@ -3827,7 +4111,8 @@
     "description": "Complete \"Dawn Breaks on Dark Tides.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200541
+    "trophyId": 200541,
+    "version": "v2.7"
   },
   {
     "id": 200542,
@@ -3835,7 +4120,8 @@
     "description": "See the \"Paradise\" within the illusion.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200542
+    "trophyId": 200542,
+    "version": "v2.7"
   },
   {
     "id": 200543,
@@ -3843,7 +4129,8 @@
     "description": "Witness the end of Avidius.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200543
+    "trophyId": 200543,
+    "version": "v2.7"
   },
   {
     "id": 200544,
@@ -3851,7 +4138,8 @@
     "description": "Quell the crisis in Rinascita once and for all.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200544
+    "trophyId": 200544,
+    "version": "v2.7"
   },
   {
     "id": 200545,
@@ -3859,7 +4147,8 @@
     "description": "Complete Stagnant Dawn on Wastelands.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200545
+    "trophyId": 200545,
+    "version": "v2.8"
   },
   {
     "id": 200546,
@@ -3867,7 +4156,8 @@
     "description": "Arrive in Honami City for the first time.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200546
+    "trophyId": 200546,
+    "version": "v2.8"
   },
   {
     "id": 200547,
@@ -3875,7 +4165,8 @@
     "description": "Arrive at the Shashou Cafe for the first time.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200547
+    "trophyId": 200547,
+    "version": "v2.8"
   },
   {
     "id": 200548,
@@ -3883,7 +4174,8 @@
     "description": "Save the Left Behind man while collecting Longings.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200548
+    "trophyId": 200548,
+    "version": "v2.8"
   },
   {
     "id": 200549,
@@ -3891,7 +4183,8 @@
     "description": "Uncover the memories sealed in amber inside the old safe house.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200549
+    "trophyId": 200549,
+    "version": "v2.8"
   },
   {
     "id": 200550,
@@ -3899,7 +4192,8 @@
     "description": "Witness that girl's final moment in the Neon Tower.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200550
+    "trophyId": 200550,
+    "version": "v2.8"
   },
   {
     "id": 200551,
@@ -3907,7 +4201,8 @@
     "description": "Spend the first night with friends after the cafe's opening.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200551
+    "trophyId": 200551,
+    "version": "v2.8"
   },
   {
     "id": 200552,
@@ -3915,7 +4210,8 @@
     "description": "Complete Flowing Starlight in the Iris.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200552
+    "trophyId": 200552,
+    "version": "v2.8"
   },
   {
     "id": 200601,
@@ -3923,7 +4219,8 @@
     "description": "Successfully escape the pursuing Voidworm with Lynae.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200601
+    "trophyId": 200601,
+    "version": "v3.0"
   },
   {
     "id": 200602,
@@ -3931,7 +4228,8 @@
     "description": "Claim your vehicle from S.I.G.M.A. for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200602
+    "trophyId": 200602,
+    "version": "v3.0"
   },
   {
     "id": 200603,
@@ -3939,7 +4237,8 @@
     "description": "Confront the resurrected \"Liaison.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200603
+    "trophyId": 200603,
+    "version": "v3.0"
   },
   {
     "id": 200604,
@@ -3947,7 +4246,8 @@
     "description": "Successfully stop the rampaging Hyvatia Detector.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200604
+    "trophyId": 200604,
+    "version": "v3.0"
   },
   {
     "id": 200605,
@@ -3955,7 +4255,8 @@
     "description": "Witness the Soliskin complete the Rite of Return.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200605
+    "trophyId": 200605,
+    "version": "v3.0"
   },
   {
     "id": 200606,
@@ -3963,7 +4264,8 @@
     "description": "Complete the New Solar Ceremony.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 200606
+    "trophyId": 200606,
+    "version": "v3.0"
   },
   {
     "id": 200607,
@@ -3971,7 +4273,8 @@
     "description": "Complete \"Ode to the Second Sunrise.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200607
+    "trophyId": 200607,
+    "version": "v3.0"
   },
   {
     "id": 200608,
@@ -3979,7 +4282,8 @@
     "description": "Defeat the Voidworm with Lynae.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200608
+    "trophyId": 200608,
+    "version": "v3.0"
   },
   {
     "id": 200609,
@@ -3987,7 +4291,8 @@
     "description": "Complete \"What Burns Beneath Frostlands.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200609
+    "trophyId": 200609,
+    "version": "v3.0"
   },
   {
     "id": 200610,
@@ -3995,7 +4300,8 @@
     "description": "Complete enrollment at Startorch Academy.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200610
+    "trophyId": 200610,
+    "version": "v3.0"
   },
   {
     "id": 200611,
@@ -4003,7 +4309,8 @@
     "description": "Witness the appearance of Solisylum.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200611
+    "trophyId": 200611,
+    "version": "v3.0"
   },
   {
     "id": 200612,
@@ -4011,7 +4318,8 @@
     "description": "Find the Soliskin who survived the Void Storm at Atuja camp.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200612
+    "trophyId": 200612,
+    "version": "v3.0"
   },
   {
     "id": 200613,
@@ -4019,7 +4327,8 @@
     "description": "Complete \"All That Sunlight Touches.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200613
+    "trophyId": 200613,
+    "version": "v3.1"
   },
   {
     "id": 200614,
@@ -4027,7 +4336,8 @@
     "description": "Reach the deepest part of the World of Sighs.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200614
+    "trophyId": 200614,
+    "version": "v3.1"
   },
   {
     "id": 200615,
@@ -4035,7 +4345,8 @@
     "description": "Follow Aemeath through the screen array.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200615
+    "trophyId": 200615,
+    "version": "v3.1"
   },
   {
     "id": 200616,
@@ -4043,7 +4354,8 @@
     "description": "Reach the surface of the Roya Frostlands.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200616
+    "trophyId": 200616,
+    "version": "v3.1"
   },
   {
     "id": 200617,
@@ -4051,7 +4363,8 @@
     "description": "Complete \"The Star That Voyages Far.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200617
+    "trophyId": 200617,
+    "version": "v3.1"
   },
   {
     "id": 200618,
@@ -4059,7 +4372,8 @@
     "description": "Defeat the Nameless Explorer with Luuk.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200618
+    "trophyId": 200618,
+    "version": "v3.1"
   },
   {
     "id": 200619,
@@ -4067,7 +4381,8 @@
     "description": "Reach the Ginnungamere cabin.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200619
+    "trophyId": 200619,
+    "version": "v3.1"
   },
   {
     "id": 200620,
@@ -4075,7 +4390,8 @@
     "description": "Watch Aemeath's fan meeting performance.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200620
+    "trophyId": 200620,
+    "version": "v3.1"
   },
   {
     "id": 200621,
@@ -4083,7 +4399,8 @@
     "description": "Win the game of Rock-Paper-Scissors with Aemeath.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200621
+    "trophyId": 200621,
+    "version": "v3.1"
   },
   {
     "id": 200622,
@@ -4091,7 +4408,8 @@
     "description": "Successfully escape the avalanche.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200622
+    "trophyId": 200622,
+    "version": "v3.1"
   },
   {
     "id": 200623,
@@ -4099,7 +4417,8 @@
     "description": "Defeat Sigillum together with Aemeath.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200623
+    "trophyId": 200623,
+    "version": "v3.1"
   },
   {
     "id": 200701,
@@ -4107,7 +4426,8 @@
     "description": "Complete \"Operation: Frontier Renewal.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 200701
+    "trophyId": 200701,
+    "version": "v3.0"
   },
   {
     "id": 200702,
@@ -4115,7 +4435,8 @@
     "description": "Complete Side Quest \"Moments Captured in Light.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200702
+    "trophyId": 200702,
+    "version": "v3.0"
   },
   {
     "id": 200703,
@@ -4123,7 +4444,8 @@
     "description": "Finish your first lesson in class.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200703
+    "trophyId": 200703,
+    "version": "v3.0"
   },
   {
     "id": 200704,
@@ -4131,7 +4453,8 @@
     "description": "Check all the lost-and-found notices at the station.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200704
+    "trophyId": 200704,
+    "version": "v3.0"
   },
   {
     "id": 200705,
@@ -4139,7 +4462,8 @@
     "description": "Complete Side Quest \"Ultimate Challenge.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200705
+    "trophyId": 200705,
+    "version": "v3.0"
   },
   {
     "id": 200706,
@@ -4147,7 +4471,8 @@
     "description": "Deliver medicine to Lias.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200706
+    "trophyId": 200706,
+    "version": "v3.0"
   },
   {
     "id": 200707,
@@ -4155,7 +4480,8 @@
     "description": "Collect all the clues in the abandoned camp.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200707
+    "trophyId": 200707,
+    "version": "v3.0"
   },
   {
     "id": 200708,
@@ -4163,7 +4489,8 @@
     "description": "Reach 3 camps with the Academy's expedition team.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200708
+    "trophyId": 200708,
+    "version": "v3.0"
   },
   {
     "id": 200709,
@@ -4171,7 +4498,8 @@
     "description": "Complete Side Quest \"Answers Only the Wind Knows.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200709
+    "trophyId": 200709,
+    "version": "v3.0"
   },
   {
     "id": 200710,
@@ -4179,7 +4507,8 @@
     "description": "Choose to tell the truth in Side Quest \"Where Starry Seas Endure.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200710
+    "trophyId": 200710,
+    "version": "v3.0"
   },
   {
     "id": 200711,
@@ -4187,7 +4516,8 @@
     "description": "Choose to hide the truth in Side Quest \"Where Starry Seas Endure.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200711
+    "trophyId": 200711,
+    "version": "v3.0"
   },
   {
     "id": 200712,
@@ -4195,7 +4525,8 @@
     "description": "Collect all of Professor Sestan's logs.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200712
+    "trophyId": 200712,
+    "version": "v3.0"
   },
   {
     "id": 200713,
@@ -4203,7 +4534,8 @@
     "description": "Help Spacetrek Collective repel the Outcast assault at Relay Station in Side Quest \"Catch the Winds.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200713
+    "trophyId": 200713,
+    "version": "v3.0"
   },
   {
     "id": 200714,
@@ -4211,7 +4543,8 @@
     "description": "Find the contact list and deliver it to Oran and successfully prevent the Outcasts from attacking Relay Station in Side Quest \"Catch the Winds.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200714
+    "trophyId": 200714,
+    "version": "v3.0"
   },
   {
     "id": 200715,
@@ -4219,7 +4552,8 @@
     "description": "Sit around the campfire in Lahai-Roi's wilderness and talk to the Roya.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200715
+    "trophyId": 200715,
+    "version": "v3.0"
   },
   {
     "id": 200716,
@@ -4227,7 +4561,8 @@
     "description": "Sit in the music classroom and listen to I.R.I.S. playing guitar and humming.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200716
+    "trophyId": 200716,
+    "version": "v3.0"
   },
   {
     "id": 200717,
@@ -4235,7 +4570,8 @@
     "description": "Witness the scenery of Submerged Tunnel with Mornye.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200717
+    "trophyId": 200717,
+    "version": "v3.0"
   },
   {
     "id": 200718,
@@ -4243,7 +4579,8 @@
     "description": "Talk to the crowd watching the Soliskin trampling the Fern Spores.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200718
+    "trophyId": 200718,
+    "version": "v3.0"
   },
   {
     "id": 200719,
@@ -4251,7 +4588,8 @@
     "description": "Dial the number leading to the Realm of Oblivion at the telephone booth.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200719
+    "trophyId": 200719,
+    "version": "v3.0"
   },
   {
     "id": 200720,
@@ -4259,7 +4597,8 @@
     "description": "Resist dialing the unknown number, triumphing in this battle of curiosity.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200720
+    "trophyId": 200720,
+    "version": "v3.0"
   },
   {
     "id": 200721,
@@ -4267,7 +4606,8 @@
     "description": "Generate simulated weather by adjusting the Sky Projection Array.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200721
+    "trophyId": 200721,
+    "version": "v3.0"
   },
   {
     "id": 200722,
@@ -4275,7 +4615,8 @@
     "description": "Follow Fitz and find the Cassette left behind by Scott.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200722
+    "trophyId": 200722,
+    "version": "v3.1"
   },
   {
     "id": 200723,
@@ -4283,7 +4624,8 @@
     "description": "Fail to keep up with Fitz…",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200723
+    "trophyId": 200723,
+    "version": "v3.1"
   },
   {
     "id": 200724,
@@ -4291,7 +4633,8 @@
     "description": "Help Omar retrieve his expedition motorbike.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200724
+    "trophyId": 200724,
+    "version": "v3.1"
   },
   {
     "id": 200725,
@@ -4299,7 +4642,8 @@
     "description": "Discover the mysterious old man who gives gifts to students.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200725
+    "trophyId": 200725,
+    "version": "v3.1"
   },
   {
     "id": 200726,
@@ -4307,7 +4651,8 @@
     "description": "Discover the Roya swimming among the ice.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200726
+    "trophyId": 200726,
+    "version": "v3.1"
   },
   {
     "id": 200727,
@@ -4315,7 +4660,8 @@
     "description": "Complete Side Quest \"Once Upon a Time in the Frostlands.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 200727
+    "trophyId": 200727,
+    "version": "v3.1"
   },
   {
     "id": 200728,
@@ -4323,7 +4669,8 @@
     "description": "Choose to contact the Spacetrek Collective in Side Quest \"From the Snow White.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200728
+    "trophyId": 200728,
+    "version": "v3.1"
   },
   {
     "id": 200729,
@@ -4331,7 +4678,8 @@
     "description": "Choose to talk to Fluffball in Side Quest \"From the Snow White.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200729
+    "trophyId": 200729,
+    "version": "v3.1"
   },
   {
     "id": 200730,
@@ -4339,7 +4687,8 @@
     "description": "Witness three researchers stumbling in the Frostlands.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200730
+    "trophyId": 200730,
+    "version": "v3.1"
   },
   {
     "id": 200731,
@@ -4347,7 +4696,8 @@
     "description": "Observe four researchers conducting image collection.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 200731
+    "trophyId": 200731,
+    "version": "v3.1"
   },
   {
     "id": 201001,
@@ -4355,7 +4705,8 @@
     "description": "Insert an Anchor Stone into an Anchor Obelisk for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201001
+    "trophyId": 201001,
+    "version": "v2.6"
   },
   {
     "id": 201002,
@@ -4363,7 +4714,8 @@
     "description": "Kindle the Sacred Flames in Maroonwood to their fullest blaze.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 201002
+    "trophyId": 201002,
+    "version": "v2.6"
   },
   {
     "id": 201003,
@@ -4371,7 +4723,8 @@
     "description": "Complete all trials in the Dreams of Cindertide challenge.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 201003
+    "trophyId": 201003,
+    "version": "v2.6"
   },
   {
     "id": 201004,
@@ -4379,7 +4732,8 @@
     "description": "Find all \"Ghost\" Wootters near the Wootter stone shrines in the Wastelands.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 201004
+    "trophyId": 201004,
+    "version": "v2.6"
   },
   {
     "id": 201005,
@@ -4387,7 +4741,8 @@
     "description": "Complete all requests of the mysterious crab altars.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 201005
+    "trophyId": 201005,
+    "version": "v2.6"
   },
   {
     "id": 201006,
@@ -4395,7 +4750,8 @@
     "description": "Encounter Scourgewings Iaen and Isth in the Sanguis Plateaus",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 201006
+    "trophyId": 201006,
+    "version": "v2.6"
   },
   {
     "id": 201007,
@@ -4403,7 +4759,8 @@
     "description": "Travel to the greatest distance in the \"Turbulent Surge\" Flight challenge.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 201007
+    "trophyId": 201007,
+    "version": "v2.6"
   },
   {
     "id": 201008,
@@ -4411,7 +4768,8 @@
     "description": "Witness the three fragments of memories of Lillibet.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 201008
+    "trophyId": 201008,
+    "version": "v2.6"
   },
   {
     "id": 201009,
@@ -4419,7 +4777,8 @@
     "description": "Find the scattered clues and defeat the Immortal Septimontian Gladiator once and for all.",
     "asterites": 10,
     "hidden": true,
-    "trophyId": 201009
+    "trophyId": 201009,
+    "version": "v2.6"
   },
   {
     "id": 201010,
@@ -4427,7 +4786,8 @@
     "description": "Find the traces of Augusta's triumph over the lion in the past.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201010
+    "trophyId": 201010,
+    "version": "v2.6"
   },
   {
     "id": 201011,
@@ -4435,7 +4795,8 @@
     "description": "Find the \"treasure\" in Peso's secret hideout.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201011
+    "trophyId": 201011,
+    "version": "v2.6"
   },
   {
     "id": 201012,
@@ -4443,7 +4804,8 @@
     "description": "Read the letter in front of the gladiator's grave.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201012
+    "trophyId": 201012,
+    "version": "v2.6"
   },
   {
     "id": 201013,
@@ -4451,7 +4813,8 @@
     "description": "Fall into the Dark Tide in the Wastelands and be teleported back to safety 10 times.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201013
+    "trophyId": 201013,
+    "version": "v2.6"
   },
   {
     "id": 201014,
@@ -4459,7 +4822,8 @@
     "description": "Defeat Flameblade of the Rift.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201014
+    "trophyId": 201014,
+    "version": "v2.6"
   },
   {
     "id": 201015,
@@ -4467,7 +4831,8 @@
     "description": "Defeat Phantom: Kerasaur.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201015
+    "trophyId": 201015,
+    "version": "v2.6"
   },
   {
     "id": 201051,
@@ -4475,7 +4840,8 @@
     "description": "Head to the top of Three Heroes' Crest and defeat the Lioness of Glory once more.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201051
+    "trophyId": 201051,
+    "version": "v2.7"
   },
   {
     "id": 201052,
@@ -4483,7 +4849,8 @@
     "description": "Defeat Doom Adjudicator.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201052
+    "trophyId": 201052,
+    "version": "v2.7"
   },
   {
     "id": 201053,
@@ -4491,7 +4858,8 @@
     "description": "Work with Galbrena to breach the Tidespawn's encirclement.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201053
+    "trophyId": 201053,
+    "version": "v2.7"
   },
   {
     "id": 201054,
@@ -4499,7 +4867,8 @@
     "description": "Reach the Styx Lake.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201054
+    "trophyId": 201054,
+    "version": "v2.7"
   },
   {
     "id": 201055,
@@ -4507,7 +4876,8 @@
     "description": "Defeat Threnodian: Leviathan.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201055
+    "trophyId": 201055,
+    "version": "v2.7"
   },
   {
     "id": 201056,
@@ -4515,7 +4885,8 @@
     "description": "Use \"Napoli the Second's Lamp\" to switch between \"dimensions\" from inside the Dark Tide.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201056
+    "trophyId": 201056,
+    "version": "v2.7"
   },
   {
     "id": 201057,
@@ -4523,7 +4894,8 @@
     "description": "Enter the Plane of Dark Tide.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201057
+    "trophyId": 201057,
+    "version": "v2.7"
   },
   {
     "id": 201058,
@@ -4531,7 +4903,8 @@
     "description": "Enter the \"Journeying Paradise.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201058
+    "trophyId": 201058,
+    "version": "v2.7"
   },
   {
     "id": 201101,
@@ -4539,7 +4912,8 @@
     "description": "Find your first missing Soliskin and obtain a Soliseed.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201101
+    "trophyId": 201101,
+    "version": "v3.0"
   },
   {
     "id": 201102,
@@ -4547,7 +4921,8 @@
     "description": "Complete Exploration Quest \"No. 1 Biker.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201102
+    "trophyId": 201102,
+    "version": "v3.0"
   },
   {
     "id": 201103,
@@ -4555,7 +4930,8 @@
     "description": "Use Mechascout: Transition 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201103
+    "trophyId": 201103,
+    "version": "v3.0"
   },
   {
     "id": 201104,
@@ -4563,7 +4939,8 @@
     "description": "Use Mechascout: Transition 50 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201104
+    "trophyId": 201104,
+    "version": "v3.0"
   },
   {
     "id": 201105,
@@ -4571,7 +4948,8 @@
     "description": "Use Velo Conduit for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201105
+    "trophyId": 201105,
+    "version": "v3.0"
   },
   {
     "id": 201106,
@@ -4579,7 +4957,8 @@
     "description": "Collide with a vehicle on the Lahai-Roi's Route Network.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201106
+    "trophyId": 201106,
+    "version": "v3.0"
   },
   {
     "id": 201107,
@@ -4587,7 +4966,8 @@
     "description": "Complete all Route Constructor motorbike challenges in Lahai-Roi.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201107
+    "trophyId": 201107,
+    "version": "v3.0"
   },
   {
     "id": 201108,
@@ -4595,7 +4975,8 @@
     "description": "Solve 27 Smartprint Cube puzzles.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201108
+    "trophyId": 201108,
+    "version": "v3.0"
   },
   {
     "id": 201109,
@@ -4603,7 +4984,8 @@
     "description": "Use the destruction mechanism in a Smartprint Cube to break an obstacle for the first time.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201109
+    "trophyId": 201109,
+    "version": "v3.0"
   },
   {
     "id": 201110,
@@ -4611,7 +4993,8 @@
     "description": "Solve a Smartprint Cube puzzle for the first time and activate the holographic printing to produce the corresponding item.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201110
+    "trophyId": 201110,
+    "version": "v3.0"
   },
   {
     "id": 201111,
@@ -4619,7 +5002,8 @@
     "description": "Perform 50 jumps using a Motorbike Jump.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201111
+    "trophyId": 201111,
+    "version": "v3.0"
   },
   {
     "id": 201112,
@@ -4627,7 +5011,8 @@
     "description": "Jump once using a Pathfinder Trailer.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201112
+    "trophyId": 201112,
+    "version": "v3.0"
   },
   {
     "id": 201113,
@@ -4635,7 +5020,8 @@
     "description": "Change the sliding direction of the Fluffguin once.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201113
+    "trophyId": 201113,
+    "version": "v3.0"
   },
   {
     "id": 201114,
@@ -4643,7 +5029,8 @@
     "description": "Use Projector: Geospider to remove Lumiglow Shade 10 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201114
+    "trophyId": 201114,
+    "version": "v3.0"
   },
   {
     "id": 201115,
@@ -4651,7 +5038,8 @@
     "description": "Unlock 5 Vista Views.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201115
+    "trophyId": 201115,
+    "version": "v3.0"
   },
   {
     "id": 201116,
@@ -4659,7 +5047,8 @@
     "description": "Hook 10 Supply Chests from a moving Spacetrek Convoy.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201116
+    "trophyId": 201116,
+    "version": "v3.0"
   },
   {
     "id": 201117,
@@ -4667,7 +5056,8 @@
     "description": "Complete 50 drifts on the Cruise Conduit.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201117
+    "trophyId": 201117,
+    "version": "v3.0"
   },
   {
     "id": 201118,
@@ -4675,7 +5065,8 @@
     "description": "Enjoy any hot spring generated by the Smartprint Cube once.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201118
+    "trophyId": 201118,
+    "version": "v3.0"
   },
   {
     "id": 201120,
@@ -4683,7 +5074,8 @@
     "description": "Clear one  Route Network Blockage.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201120
+    "trophyId": 201120,
+    "version": "v3.0"
   },
   {
     "id": 201121,
@@ -4691,7 +5083,8 @@
     "description": "Offer something to the mysterious Royan statue.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201121
+    "trophyId": 201121,
+    "version": "v3.0"
   },
   {
     "id": 201122,
@@ -4699,7 +5092,8 @@
     "description": "Use the Eagle-Eye Drone for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201122
+    "trophyId": 201122,
+    "version": "v3.0"
   },
   {
     "id": 201123,
@@ -4707,7 +5101,8 @@
     "description": "Find all lost Soliskin and obtain their Soliseeds.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201123
+    "trophyId": 201123,
+    "version": "v3.0"
   },
   {
     "id": 201124,
@@ -4715,7 +5110,8 @@
     "description": "Use Mining Reindeer to collect Luxite 5 times in Lahai-Roi.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201124
+    "trophyId": 201124,
+    "version": "v3.0"
   },
   {
     "id": 201125,
@@ -4723,7 +5119,8 @@
     "description": "Find and repair all disabled Spacetrek Explorers in Lahai-Roi and resolve the related events.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201125
+    "trophyId": 201125,
+    "version": "v3.0"
   },
   {
     "id": 201126,
@@ -4731,7 +5128,8 @@
     "description": "Complete Side Quest \"Bucket List.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201126
+    "trophyId": 201126,
+    "version": "v3.0"
   },
   {
     "id": 201127,
@@ -4739,7 +5137,8 @@
     "description": "Complete Side Quest \"WavesLine Insider.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201127
+    "trophyId": 201127,
+    "version": "v3.0"
   },
   {
     "id": 201128,
@@ -4747,7 +5146,8 @@
     "description": "Complete Side Quest \"Where Wisdom Lights the Way.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201128
+    "trophyId": 201128,
+    "version": "v3.0"
   },
   {
     "id": 201129,
@@ -4755,7 +5155,8 @@
     "description": "Have 30 Soliskin join your team in Exploration Quest \"Where Light Takes Shape.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201129
+    "trophyId": 201129,
+    "version": "v3.0"
   },
   {
     "id": 201130,
@@ -4763,7 +5164,8 @@
     "description": "Complete Exploration Quest \"Where Light Takes Shape.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201130
+    "trophyId": 201130,
+    "version": "v3.0"
   },
   {
     "id": 201131,
@@ -4771,7 +5173,8 @@
     "description": "Reach the hidden area \"Bjartr Woods.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201131
+    "trophyId": 201131,
+    "version": "v3.0"
   },
   {
     "id": 201132,
@@ -4779,7 +5182,8 @@
     "description": "Run into Feilian Beringal in Exploration Quest \"No. 1 Biker.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201132
+    "trophyId": 201132,
+    "version": "v3.0"
   },
   {
     "id": 201133,
@@ -4787,7 +5191,8 @@
     "description": "Complete Side Quest \"Pulses of the Plains.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201133
+    "trophyId": 201133,
+    "version": "v3.0"
   },
   {
     "id": 201134,
@@ -4795,7 +5200,8 @@
     "description": "Complete the \"Urban Legends\" Side Quest series.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201134
+    "trophyId": 201134,
+    "version": "v3.0"
   },
   {
     "id": 201135,
@@ -4803,7 +5209,8 @@
     "description": "Complete Side Quest \"Unparalleled Mechascout.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201135
+    "trophyId": 201135,
+    "version": "v3.0"
   },
   {
     "id": 201136,
@@ -4811,7 +5218,8 @@
     "description": "Complete all Upgraded Motorbike Simulation challenges.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201136
+    "trophyId": 201136,
+    "version": "v3.0"
   },
   {
     "id": 201137,
@@ -4819,7 +5227,8 @@
     "description": "Complete Exploration Quest \"The Lost Melody\" and ride with the Soliskin.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201137
+    "trophyId": 201137,
+    "version": "v3.0"
   },
   {
     "id": 201138,
@@ -4827,7 +5236,8 @@
     "description": "Complete Exploration Quest \"The Lost Melody\" and talk and ride with Lynae.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201138
+    "trophyId": 201138,
+    "version": "v3.0"
   },
   {
     "id": 201139,
@@ -4835,7 +5245,8 @@
     "description": "Complete Side Quest \"Sixteen Centimillion Bits.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201139
+    "trophyId": 201139,
+    "version": "v3.0"
   },
   {
     "id": 201140,
@@ -4843,7 +5254,8 @@
     "description": "Complete Side Quest \"Return to Light.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201140
+    "trophyId": 201140,
+    "version": "v3.0"
   },
   {
     "id": 201141,
@@ -4851,7 +5263,8 @@
     "description": "Unlock 10 Vista Views.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 201141
+    "trophyId": 201141,
+    "version": "v3.0"
   },
   {
     "id": 201142,
@@ -4859,7 +5272,8 @@
     "description": "Unlock 15 Vista Views.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 201142
+    "trophyId": 201142,
+    "version": "v3.0"
   },
   {
     "id": 201150,
@@ -4867,7 +5281,8 @@
     "description": "Learn about the story behind the frozen throne.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201150
+    "trophyId": 201150,
+    "version": "v3.1"
   },
   {
     "id": 201151,
@@ -4875,7 +5290,8 @@
     "description": "Help Elma reach the \"mystery realm\" she's been looking for.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201151
+    "trophyId": 201151,
+    "version": "v3.1"
   },
   {
     "id": 201153,
@@ -4883,7 +5299,8 @@
     "description": "Rescue the Soliskin trapped in ice.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201153
+    "trophyId": 201153,
+    "version": "v3.1"
   },
   {
     "id": 201154,
@@ -4891,7 +5308,8 @@
     "description": "Find out why the Soliskin hides treasures in the cave.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201154
+    "trophyId": 201154,
+    "version": "v3.1"
   },
   {
     "id": 201158,
@@ -4899,7 +5317,8 @@
     "description": "Complete Exploration Quest \"The Song of Ice and Steel.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201158
+    "trophyId": 201158,
+    "version": "v3.1"
   },
   {
     "id": 201159,
@@ -4907,7 +5326,8 @@
     "description": "Complete Exploration Quest \"Unfrozen Hope.\"",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201159
+    "trophyId": 201159,
+    "version": "v3.1"
   },
   {
     "id": 201160,
@@ -4915,7 +5335,8 @@
     "description": "Reach the hidden area of the Upphaf Life Chamber.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 201160
+    "trophyId": 201160,
+    "version": "v3.1"
   },
   {
     "id": 201161,
@@ -4923,7 +5344,8 @@
     "description": "Use Voidmatter Forcefield for the first time.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201161
+    "trophyId": 201161,
+    "version": "v3.1"
   },
   {
     "id": 201162,
@@ -4931,7 +5353,8 @@
     "description": "Unlock all Voidmatter Forcefields",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201162
+    "trophyId": 201162,
+    "version": "v3.1"
   },
   {
     "id": 201163,
@@ -4939,7 +5362,8 @@
     "description": "Complete Side Quest \"Fracture the Frozen Mirror.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201163
+    "trophyId": 201163,
+    "version": "v3.1"
   },
   {
     "id": 201164,
@@ -4947,7 +5371,8 @@
     "description": "Complete all Soliskin Guide challenges in the Frostlands Surface.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201164
+    "trophyId": 201164,
+    "version": "v3.1"
   },
   {
     "id": 201165,
@@ -4955,7 +5380,8 @@
     "description": "Complete all Route Constructor challenge tracks in the Frostlands Surface.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201165
+    "trophyId": 201165,
+    "version": "v3.1"
   },
   {
     "id": 201166,
@@ -4963,7 +5389,8 @@
     "description": "Complete 10 Treasure Spot challenges in the Frostlands Surface.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201166
+    "trophyId": 201166,
+    "version": "v3.1"
   },
   {
     "id": 201167,
@@ -4971,7 +5398,8 @@
     "description": "Reveal all the frozen targets with the Glacier Probe.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201167
+    "trophyId": 201167,
+    "version": "v3.1"
   },
   {
     "id": 201168,
@@ -4979,7 +5407,8 @@
     "description": "Rescue the Soliskin trapped in the frozen cave.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201168
+    "trophyId": 201168,
+    "version": "v3.1"
   },
   {
     "id": 201169,
@@ -4987,7 +5416,8 @@
     "description": "Learn about the story of the timid Soliskin.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 201169
+    "trophyId": 201169,
+    "version": "v3.1"
   },
   {
     "id": 300101,
@@ -5542,7 +5972,8 @@
     "description": "Use Carlotta's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300183
+    "trophyId": 300183,
+    "version": "v2.0"
   },
   {
     "id": 300184,
@@ -5550,7 +5981,8 @@
     "description": "Use Roccia's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300184
+    "trophyId": 300184,
+    "version": "v2.0"
   },
   {
     "id": 300185,
@@ -5558,7 +5990,8 @@
     "description": "Defeat Hecate: Limbo Rondo.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 300185
+    "trophyId": 300185,
+    "version": "v2.0"
   },
   {
     "id": 300186,
@@ -5566,7 +5999,8 @@
     "description": "Use Brant's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300186
+    "trophyId": 300186,
+    "version": "v2.1"
   },
   {
     "id": 300187,
@@ -5574,7 +6008,8 @@
     "description": "Defeat Hurriclaw 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300187
+    "trophyId": 300187,
+    "version": "v2.1"
   },
   {
     "id": 300188,
@@ -5582,7 +6017,8 @@
     "description": "Defeat Rage Against the Statue 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300188
+    "trophyId": 300188,
+    "version": "v2.1"
   },
   {
     "id": 300189,
@@ -5590,7 +6026,8 @@
     "description": "Defeat Golden Junrock 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300189
+    "trophyId": 300189,
+    "version": "v2.1"
   },
   {
     "id": 300190,
@@ -5598,7 +6035,8 @@
     "description": "Defeat Calcified Junrock 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300190
+    "trophyId": 300190,
+    "version": "v2.1"
   },
   {
     "id": 300191,
@@ -5606,7 +6044,8 @@
     "description": "Defeat Aero Prism 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300191
+    "trophyId": 300191,
+    "version": "v2.1"
   },
   {
     "id": 300192,
@@ -5614,7 +6053,8 @@
     "description": "Use Phoebe's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300192
+    "trophyId": 300192,
+    "version": "v2.1"
   },
   {
     "id": 300205,
@@ -5832,7 +6272,8 @@
     "description": "Defeat Questless Knight 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300228
+    "trophyId": 300228,
+    "version": "v2.0"
   },
   {
     "id": 300229,
@@ -5840,7 +6281,8 @@
     "description": "Defeat Diurnus Knight 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300229
+    "trophyId": 300229,
+    "version": "v2.0"
   },
   {
     "id": 300230,
@@ -5848,7 +6290,8 @@
     "description": "Defeat Nocturnus Knight 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300230
+    "trophyId": 300230,
+    "version": "v2.0"
   },
   {
     "id": 300231,
@@ -5856,7 +6299,8 @@
     "description": "Defeat Chest Mimic 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300231
+    "trophyId": 300231,
+    "version": "v2.0"
   },
   {
     "id": 300232,
@@ -5864,7 +6308,8 @@
     "description": "Defeat Vitreum Dancer 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300232
+    "trophyId": 300232,
+    "version": "v2.0"
   },
   {
     "id": 300233,
@@ -5872,7 +6317,8 @@
     "description": "Defeat Fae Ignis 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300233
+    "trophyId": 300233,
+    "version": "v2.0"
   },
   {
     "id": 300234,
@@ -5880,7 +6326,8 @@
     "description": "Defeat Nimbus Wraith 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300234
+    "trophyId": 300234,
+    "version": "v2.0"
   },
   {
     "id": 300235,
@@ -5888,7 +6335,8 @@
     "description": "Defeat Hocus Pocus 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300235
+    "trophyId": 300235,
+    "version": "v2.0"
   },
   {
     "id": 300236,
@@ -5896,7 +6344,8 @@
     "description": "Defeat Lottie Lost 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300236
+    "trophyId": 300236,
+    "version": "v2.0"
   },
   {
     "id": 300237,
@@ -5904,7 +6353,8 @@
     "description": "Defeat Diggy Duggy 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300237
+    "trophyId": 300237,
+    "version": "v2.0"
   },
   {
     "id": 300238,
@@ -5912,7 +6362,8 @@
     "description": "Defeat Cuddle Wuddle 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300238
+    "trophyId": 300238,
+    "version": "v2.0"
   },
   {
     "id": 300239,
@@ -5920,7 +6371,8 @@
     "description": "Defeat Abyssal Patricius 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300239
+    "trophyId": 300239,
+    "version": "v2.0"
   },
   {
     "id": 300240,
@@ -5928,7 +6380,8 @@
     "description": "Defeat Abyssal Gladius 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300240
+    "trophyId": 300240,
+    "version": "v2.0"
   },
   {
     "id": 300241,
@@ -5936,7 +6389,8 @@
     "description": "Defeat Abyssal Mercator 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300241
+    "trophyId": 300241,
+    "version": "v2.0"
   },
   {
     "id": 300242,
@@ -5944,7 +6398,8 @@
     "description": "Defeat Chop Chop 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300242
+    "trophyId": 300242,
+    "version": "v2.0"
   },
   {
     "id": 300243,
@@ -5952,7 +6407,8 @@
     "description": "Defeat Chop Chop: Leftless 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300243
+    "trophyId": 300243,
+    "version": "v2.0"
   },
   {
     "id": 300244,
@@ -5960,7 +6416,8 @@
     "description": "Defeat Chop Chop: Rightless 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300244
+    "trophyId": 300244,
+    "version": "v2.0"
   },
   {
     "id": 300245,
@@ -5968,7 +6425,8 @@
     "description": "Defeat Chop Chop: Headless 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300245
+    "trophyId": 300245,
+    "version": "v2.0"
   },
   {
     "id": 300246,
@@ -5976,7 +6434,8 @@
     "description": "Defeat Sentry Construct: Gargoyle 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 300246
+    "trophyId": 300246,
+    "version": "v2.0"
   },
   {
     "id": 300247,
@@ -5984,7 +6443,8 @@
     "description": "Defeat Lorelei: Queen of the Night 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 300247
+    "trophyId": 300247,
+    "version": "v2.0"
   },
   {
     "id": 300248,
@@ -5992,7 +6452,8 @@
     "description": "Defeat Dragon of Dirge: Gehinnom 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 300248
+    "trophyId": 300248,
+    "version": "v2.0"
   },
   {
     "id": 300249,
@@ -6000,7 +6461,8 @@
     "description": "Defeat Hecate: Limbo Rondo 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 300249
+    "trophyId": 300249,
+    "version": "v2.0"
   },
   {
     "id": 300301,
@@ -6396,7 +6858,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Fallacy of No Return I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300801
+    "trophyId": 300801,
+    "version": "v2.0"
   },
   {
     "id": 300802,
@@ -6404,7 +6867,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Fallacy of No Return VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300802
+    "trophyId": 300802,
+    "version": "v2.0"
   },
   {
     "id": 300803,
@@ -6412,7 +6876,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Sentry Construct I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300803
+    "trophyId": 300803,
+    "version": "v2.0"
   },
   {
     "id": 300804,
@@ -6420,7 +6885,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Sentry Construct VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300804
+    "trophyId": 300804,
+    "version": "v2.0"
   },
   {
     "id": 300805,
@@ -6428,7 +6894,8 @@
     "description": "Complete all \"Forbidden Waters\" challenges in Whimpering Wastes.\n(Attempts where the whole team is defeated do not count)",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 300805
+    "trophyId": 300805,
+    "version": "v2.1"
   },
   {
     "id": 300808,
@@ -6436,7 +6903,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Hecate I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300808
+    "trophyId": 300808,
+    "version": "v2.2"
   },
   {
     "id": 300809,
@@ -6444,7 +6912,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Hecate VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300809
+    "trophyId": 300809,
+    "version": "v2.2"
   },
   {
     "id": 300810,
@@ -6452,7 +6921,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Dragon of Dirge I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300810
+    "trophyId": 300810,
+    "version": "v2.2"
   },
   {
     "id": 300811,
@@ -6460,7 +6930,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Dragon of Dirge VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300811
+    "trophyId": 300811,
+    "version": "v2.2"
   },
   {
     "id": 300812,
@@ -6468,7 +6939,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Lorelei I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300812
+    "trophyId": 300812,
+    "version": "v2.3"
   },
   {
     "id": 300813,
@@ -6476,7 +6948,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Lorelei VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300813
+    "trophyId": 300813,
+    "version": "v2.3"
   },
   {
     "id": 300814,
@@ -6484,7 +6957,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Fleurdelys I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300814
+    "trophyId": 300814,
+    "version": "v2.3"
   },
   {
     "id": 300815,
@@ -6492,7 +6966,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Fleurdelys VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300815
+    "trophyId": 300815,
+    "version": "v2.3"
   },
   {
     "id": 300816,
@@ -6500,7 +6975,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Kelpie I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300816
+    "trophyId": 300816,
+    "version": "v2.4"
   },
   {
     "id": 300817,
@@ -6508,7 +6984,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Kelpie VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300817
+    "trophyId": 300817,
+    "version": "v2.4"
   },
   {
     "id": 300818,
@@ -6516,7 +6993,8 @@
     "description": "Obtain all rewards in Respawning Waters of Whimpering Wastes.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300818
+    "trophyId": 300818,
+    "version": "v2.4"
   },
   {
     "id": 300819,
@@ -6524,7 +7002,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Lady of the Sea I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300819
+    "trophyId": 300819,
+    "version": "v2.6"
   },
   {
     "id": 300820,
@@ -6532,7 +7011,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Lady of the Sea VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300820
+    "trophyId": 300820,
+    "version": "v2.6"
   },
   {
     "id": 300821,
@@ -6540,7 +7020,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Lioness of Glory I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300821
+    "trophyId": 300821,
+    "version": "v2.7"
   },
   {
     "id": 300822,
@@ -6548,7 +7029,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - Lioness of Glory VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300822
+    "trophyId": 300822,
+    "version": "v2.7"
   },
   {
     "id": 300823,
@@ -6556,7 +7038,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - False Sovereign I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300823
+    "trophyId": 300823,
+    "version": "v2.8"
   },
   {
     "id": 300824,
@@ -6564,7 +7047,8 @@
     "description": "Complete Tactical Hologram: Phantom Pain - False Sovereign VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300824
+    "trophyId": 300824,
+    "version": "v2.8"
   },
   {
     "id": 300825,
@@ -6572,7 +7056,8 @@
     "description": "Complete Tactical Hologram: Synchronization - Dreamless I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300825
+    "trophyId": 300825,
+    "version": "v3.0"
   },
   {
     "id": 300826,
@@ -6580,7 +7065,8 @@
     "description": "Complete Tactical Hologram: Synchronization - Dreamless VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300826
+    "trophyId": 300826,
+    "version": "v3.0"
   },
   {
     "id": 300827,
@@ -6588,7 +7074,8 @@
     "description": "Complete Tactical Hologram: Synchronization - Reactor Husk I.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 300827
+    "trophyId": 300827,
+    "version": "v3.1"
   },
   {
     "id": 300828,
@@ -6596,7 +7083,8 @@
     "description": "Complete Tactical Hologram: Synchronization - Reactor Husk VI.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 300828
+    "trophyId": 300828,
+    "version": "v3.1"
   },
   {
     "id": 302001,
@@ -6604,7 +7092,8 @@
     "description": "Defeat Fleurdelys 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302001
+    "trophyId": 302001,
+    "version": "v2.2"
   },
   {
     "id": 302002,
@@ -6612,7 +7101,8 @@
     "description": "Defeat Capitaneus 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302002
+    "trophyId": 302002,
+    "version": "v2.2"
   },
   {
     "id": 302003,
@@ -6620,7 +7110,8 @@
     "description": "Defeat La Guardia 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302003
+    "trophyId": 302003,
+    "version": "v2.2"
   },
   {
     "id": 302004,
@@ -6628,7 +7119,8 @@
     "description": "Defeat Sagittario 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302004
+    "trophyId": 302004,
+    "version": "v2.2"
   },
   {
     "id": 302005,
@@ -6636,7 +7128,8 @@
     "description": "Defeat Sacerdos 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302005
+    "trophyId": 302005,
+    "version": "v2.2"
   },
   {
     "id": 302006,
@@ -6644,7 +7137,8 @@
     "description": "Defeat Glacio Drake 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302006
+    "trophyId": 302006,
+    "version": "v2.2"
   },
   {
     "id": 302007,
@@ -6652,7 +7146,8 @@
     "description": "Defeat Electro Drake 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302007
+    "trophyId": 302007,
+    "version": "v2.2"
   },
   {
     "id": 302008,
@@ -6660,7 +7155,8 @@
     "description": "Defeat Aero Drake 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302008
+    "trophyId": 302008,
+    "version": "v2.2"
   },
   {
     "id": 302009,
@@ -6668,7 +7164,8 @@
     "description": "Use Rover: Aero's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302009
+    "trophyId": 302009,
+    "version": "v2.2"
   },
   {
     "id": 302010,
@@ -6676,7 +7173,8 @@
     "description": "Use Cantarella's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302010
+    "trophyId": 302010,
+    "version": "v2.2"
   },
   {
     "id": 302011,
@@ -6684,7 +7182,8 @@
     "description": "Use Zani's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302011
+    "trophyId": 302011,
+    "version": "v2.3"
   },
   {
     "id": 302012,
@@ -6692,7 +7191,8 @@
     "description": "Use Ciaccona's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302012
+    "trophyId": 302012,
+    "version": "v2.3"
   },
   {
     "id": 302013,
@@ -6700,7 +7200,8 @@
     "description": "Defeat Flamecrest Gladiator 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302013
+    "trophyId": 302013,
+    "version": "v2.4"
   },
   {
     "id": 302014,
@@ -6708,7 +7209,8 @@
     "description": "Defeat Frostcrest Gladiator 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302014
+    "trophyId": 302014,
+    "version": "v2.4"
   },
   {
     "id": 302015,
@@ -6716,7 +7218,8 @@
     "description": "Defeat Galecrest Gladiator 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302015
+    "trophyId": 302015,
+    "version": "v2.4"
   },
   {
     "id": 302016,
@@ -6724,7 +7227,8 @@
     "description": "Defeat Lightcrest Gladiator 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302016
+    "trophyId": 302016,
+    "version": "v2.4"
   },
   {
     "id": 302017,
@@ -6732,7 +7236,8 @@
     "description": "Defeat Abysscrest Gladiator 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302017
+    "trophyId": 302017,
+    "version": "v2.4"
   },
   {
     "id": 302018,
@@ -6740,7 +7245,8 @@
     "description": "Defeat Thundercrest Gladiator 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302018
+    "trophyId": 302018,
+    "version": "v2.4"
   },
   {
     "id": 302019,
@@ -6748,7 +7254,8 @@
     "description": "Defeat Diggy Duggy - Torn 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302019
+    "trophyId": 302019,
+    "version": "v2.4"
   },
   {
     "id": 302020,
@@ -6756,7 +7263,8 @@
     "description": "Defeat Hocus Pocus - Torn 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302020
+    "trophyId": 302020,
+    "version": "v2.4"
   },
   {
     "id": 302021,
@@ -6764,7 +7272,8 @@
     "description": "Defeat Cuddle Wuddle - Torn 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302021
+    "trophyId": 302021,
+    "version": "v2.4"
   },
   {
     "id": 302022,
@@ -6772,7 +7281,8 @@
     "description": "Defeat Lottie Lost - Torn 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302022
+    "trophyId": 302022,
+    "version": "v2.4"
   },
   {
     "id": 302023,
@@ -6780,7 +7290,8 @@
     "description": "Defeat Kerasaur 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302023
+    "trophyId": 302023,
+    "version": "v2.4"
   },
   {
     "id": 302024,
@@ -6788,7 +7299,8 @@
     "description": "Defeat Pilgrim's Shell 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302024
+    "trophyId": 302024,
+    "version": "v2.4"
   },
   {
     "id": 302025,
@@ -6796,7 +7308,8 @@
     "description": "Defeat Devotee's Flesh 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302025
+    "trophyId": 302025,
+    "version": "v2.4"
   },
   {
     "id": 302026,
@@ -6804,7 +7317,8 @@
     "description": "Defeat Fusion Drake 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302026
+    "trophyId": 302026,
+    "version": "v2.4"
   },
   {
     "id": 302027,
@@ -6812,7 +7326,8 @@
     "description": "Defeat Havoc Drake 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302027
+    "trophyId": 302027,
+    "version": "v2.4"
   },
   {
     "id": 302028,
@@ -6820,7 +7335,8 @@
     "description": "Defeat Spectro Drake 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302028
+    "trophyId": 302028,
+    "version": "v2.4"
   },
   {
     "id": 302029,
@@ -6828,7 +7344,8 @@
     "description": "Defeat Lioness of Glory 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302029
+    "trophyId": 302029,
+    "version": "v2.4"
   },
   {
     "id": 302030,
@@ -6836,7 +7353,8 @@
     "description": "Use Cartethyia's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302030
+    "trophyId": 302030,
+    "version": "v2.4"
   },
   {
     "id": 302031,
@@ -6844,7 +7362,8 @@
     "description": "Use Lupa's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302031
+    "trophyId": 302031,
+    "version": "v2.4"
   },
   {
     "id": 302032,
@@ -6852,7 +7371,8 @@
     "description": "Use Phrolova's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302032
+    "trophyId": 302032,
+    "version": "v2.5"
   },
   {
     "id": 302033,
@@ -6860,7 +7380,8 @@
     "description": "Defeat Fenrico 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302033
+    "trophyId": 302033,
+    "version": "v2.5"
   },
   {
     "id": 302034,
@@ -6868,7 +7389,8 @@
     "description": "Defeat Abyssal Gunmaster 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302034
+    "trophyId": 302034,
+    "version": "v2.5"
   },
   {
     "id": 302035,
@@ -6876,7 +7398,8 @@
     "description": "Defeat Fractsidus Inspector 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302035
+    "trophyId": 302035,
+    "version": "v2.5"
   },
   {
     "id": 302036,
@@ -6884,7 +7407,8 @@
     "description": "Use Augusta's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302036
+    "trophyId": 302036,
+    "version": "v2.6"
   },
   {
     "id": 302037,
@@ -6892,7 +7416,8 @@
     "description": "Use Iuno's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302037
+    "trophyId": 302037,
+    "version": "v2.6"
   },
   {
     "id": 302038,
@@ -6900,7 +7425,8 @@
     "description": "Defeat Corrosaurus 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302038
+    "trophyId": 302038,
+    "version": "v2.6"
   },
   {
     "id": 302039,
@@ -6908,7 +7434,8 @@
     "description": "Defeat the False Sovereign 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302039
+    "trophyId": 302039,
+    "version": "v2.6"
   },
   {
     "id": 302040,
@@ -6916,7 +7443,8 @@
     "description": "Use Galbrena's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302040
+    "trophyId": 302040,
+    "version": "v2.7"
   },
   {
     "id": 302041,
@@ -6924,7 +7452,8 @@
     "description": "Use Qiuyuan's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302041
+    "trophyId": 302041,
+    "version": "v2.7"
   },
   {
     "id": 302042,
@@ -6932,7 +7461,8 @@
     "description": "Defeat Threnodian: Leviathan 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302042
+    "trophyId": 302042,
+    "version": "v2.7"
   },
   {
     "id": 302043,
@@ -6940,7 +7470,8 @@
     "description": "Use Chisa's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302043
+    "trophyId": 302043,
+    "version": "v2.8"
   },
   {
     "id": 302044,
@@ -6948,7 +7479,8 @@
     "description": "Use Buling's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302044
+    "trophyId": 302044,
+    "version": "v2.8"
   },
   {
     "id": 302045,
@@ -6956,7 +7488,8 @@
     "description": "Use Lynae's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302045
+    "trophyId": 302045,
+    "version": "v3.0"
   },
   {
     "id": 302046,
@@ -6964,7 +7497,8 @@
     "description": "Use Mornye's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302046
+    "trophyId": 302046,
+    "version": "v3.0"
   },
   {
     "id": 302047,
@@ -6972,7 +7506,8 @@
     "description": "Defeat Starward Handmaiden: Hyvatia 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302047
+    "trophyId": 302047,
+    "version": "v3.0"
   },
   {
     "id": 302048,
@@ -6980,7 +7515,8 @@
     "description": "Defeat Reactor Husk 50 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302048
+    "trophyId": 302048,
+    "version": "v3.0"
   },
   {
     "id": 302049,
@@ -6988,7 +7524,8 @@
     "description": "Defeat Twin Nova: Collapsar Blade 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302049
+    "trophyId": 302049,
+    "version": "v3.0"
   },
   {
     "id": 302050,
@@ -6996,7 +7533,8 @@
     "description": "Defeat Twin Nova: Nebulous Cannon 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302050
+    "trophyId": 302050,
+    "version": "v3.0"
   },
   {
     "id": 302051,
@@ -7004,7 +7542,8 @@
     "description": "Defeat Flora Reindeer 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302051
+    "trophyId": 302051,
+    "version": "v3.0"
   },
   {
     "id": 302052,
@@ -7012,7 +7551,8 @@
     "description": "Defeat Mining Reindeer 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302052
+    "trophyId": 302052,
+    "version": "v3.0"
   },
   {
     "id": 302053,
@@ -7020,7 +7560,8 @@
     "description": "Defeat Ironhoof 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302053
+    "trophyId": 302053,
+    "version": "v3.0"
   },
   {
     "id": 302054,
@@ -7028,7 +7569,8 @@
     "description": "Defeat Spacetrek Explorer 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302054
+    "trophyId": 302054,
+    "version": "v3.0"
   },
   {
     "id": 302055,
@@ -7036,7 +7578,8 @@
     "description": "Defeat Sabercat Reaver 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302055
+    "trophyId": 302055,
+    "version": "v3.0"
   },
   {
     "id": 302056,
@@ -7044,7 +7587,8 @@
     "description": "Defeat Sabercat Prowler 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302056
+    "trophyId": 302056,
+    "version": "v3.0"
   },
   {
     "id": 302057,
@@ -7052,7 +7596,8 @@
     "description": "Defeat Windlash Coleoid 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302057
+    "trophyId": 302057,
+    "version": "v3.0"
   },
   {
     "id": 302058,
@@ -7060,7 +7605,8 @@
     "description": "Defeat Frostbite Coleoid 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302058
+    "trophyId": 302058,
+    "version": "v3.0"
   },
   {
     "id": 302059,
@@ -7068,7 +7614,8 @@
     "description": "Defeat Flora Drone 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302059
+    "trophyId": 302059,
+    "version": "v3.0"
   },
   {
     "id": 302060,
@@ -7076,7 +7623,8 @@
     "description": "Defeat Mining Drone 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302060
+    "trophyId": 302060,
+    "version": "v3.0"
   },
   {
     "id": 302061,
@@ -7084,7 +7632,8 @@
     "description": "Defeat Geospider S4 20 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302061
+    "trophyId": 302061,
+    "version": "v3.0"
   },
   {
     "id": 302062,
@@ -7092,7 +7641,8 @@
     "description": "Defeat Tremor Warrior 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302062
+    "trophyId": 302062,
+    "version": "v3.0"
   },
   {
     "id": 302063,
@@ -7100,7 +7650,8 @@
     "description": "Defeat Zip Zap 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302063
+    "trophyId": 302063,
+    "version": "v3.0"
   },
   {
     "id": 302064,
@@ -7108,7 +7659,8 @@
     "description": "Use Aemeath's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302064
+    "trophyId": 302064,
+    "version": "v3.1"
   },
   {
     "id": 302065,
@@ -7116,7 +7668,8 @@
     "description": "Use Luuk Herssen's Outro Skill 100 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302065
+    "trophyId": 302065,
+    "version": "v3.1"
   },
   {
     "id": 302066,
@@ -7124,7 +7677,8 @@
     "description": "Defeat Sigillum 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302066
+    "trophyId": 302066,
+    "version": "v3.1"
   },
   {
     "id": 302067,
@@ -7132,7 +7686,8 @@
     "description": "Defeat Nameless Explorer 50 times.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 302067
+    "trophyId": 302067,
+    "version": "v3.1"
   },
   {
     "id": 302068,
@@ -7140,7 +7695,8 @@
     "description": "Defeat Kronablight 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302068
+    "trophyId": 302068,
+    "version": "v3.1"
   },
   {
     "id": 302069,
@@ -7148,7 +7704,8 @@
     "description": "Defeat Kronaclaw 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302069
+    "trophyId": 302069,
+    "version": "v3.1"
   },
   {
     "id": 302070,
@@ -7156,7 +7713,8 @@
     "description": "Defeat Glommoth 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302070
+    "trophyId": 302070,
+    "version": "v3.1"
   },
   {
     "id": 302071,
@@ -7164,7 +7722,8 @@
     "description": "Defeat Iceglint Dancer 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302071
+    "trophyId": 302071,
+    "version": "v3.1"
   },
   {
     "id": 302072,
@@ -7172,7 +7731,8 @@
     "description": "Defeat Shadow Stepper 20 times.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302072
+    "trophyId": 302072,
+    "version": "v3.1"
   },
   {
     "id": 302073,
@@ -7180,7 +7740,8 @@
     "description": "A Resonator is knocked out by Sigillum's attacks.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302073
+    "trophyId": 302073,
+    "version": "v3.1"
   },
   {
     "id": 302074,
@@ -7188,7 +7749,8 @@
     "description": "A Resonator is knocked out by Nameless Explorer's attacks.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302074
+    "trophyId": 302074,
+    "version": "v3.1"
   },
   {
     "id": 302075,
@@ -7196,7 +7758,8 @@
     "description": "A Resonator is knocked out by Kronablight's attacks.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302075
+    "trophyId": 302075,
+    "version": "v3.1"
   },
   {
     "id": 302076,
@@ -7204,7 +7767,8 @@
     "description": "A Resonator is knocked out by Kronaclaw's attacks.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302076
+    "trophyId": 302076,
+    "version": "v3.1"
   },
   {
     "id": 302077,
@@ -7212,7 +7776,8 @@
     "description": "A Resonator is knocked out by Glommoth's attacks.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302077
+    "trophyId": 302077,
+    "version": "v3.1"
   },
   {
     "id": 302078,
@@ -7220,7 +7785,8 @@
     "description": "A Resonator is knocked out by Iceglint Dancer's attacks.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302078
+    "trophyId": 302078,
+    "version": "v3.1"
   },
   {
     "id": 302079,
@@ -7228,7 +7794,8 @@
     "description": "A Resonator is knocked out by Shadow Stepper's attacks.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 302079
+    "trophyId": 302079,
+    "version": "v3.1"
   },
   {
     "id": 400101,
@@ -7401,7 +7968,8 @@
     "description": "Complete 5 Resonators' Skill Tutorials.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400121
+    "trophyId": 400121,
+    "version": "v2.0"
   },
   {
     "id": 400122,
@@ -7409,7 +7977,8 @@
     "description": "Clear Abbowser Castle Level 15.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400122
+    "trophyId": 400122,
+    "version": "v2.3"
   },
   {
     "id": 400123,
@@ -7417,7 +7986,8 @@
     "description": "Clear Abbowser Castle Level 18.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400123
+    "trophyId": 400123,
+    "version": "v2.3"
   },
   {
     "id": 400124,
@@ -7425,7 +7995,8 @@
     "description": "Clear Abbowser Castle Level 20.",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 400124
+    "trophyId": 400124,
+    "version": "v2.3"
   },
   {
     "id": 400125,
@@ -7433,7 +8004,8 @@
     "description": "Unlock all Bonds in \"Solaris Film Festival.\" (Recorded upon successful challenge)",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400125
+    "trophyId": 400125,
+    "version": "v2.3"
   },
   {
     "id": 400126,
@@ -7441,7 +8013,8 @@
     "description": "Unlock all film endings at Theater 1 to 3 in \"Solaris Film Festival.\"",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 400126
+    "trophyId": 400126,
+    "version": "v2.3"
   },
   {
     "id": 400128,
@@ -7449,7 +8022,8 @@
     "description": "Obtain all Echoes in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400128
+    "trophyId": 400128,
+    "version": "v2.4"
   },
   {
     "id": 400129,
@@ -7457,7 +8031,8 @@
     "description": "Upgrade the appearance of all Echoes in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 20,
     "hidden": false,
-    "trophyId": 400129
+    "trophyId": 400129,
+    "version": "v2.4"
   },
   {
     "id": 400130,
@@ -7465,7 +8040,8 @@
     "description": "Obtain all Resonator Tactics in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400130
+    "trophyId": 400130,
+    "version": "v2.4"
   },
   {
     "id": 400131,
@@ -7473,7 +8049,8 @@
     "description": "Reach a record high of 1,000 Fame Flags in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400131
+    "trophyId": 400131,
+    "version": "v2.4"
   },
   {
     "id": 400132,
@@ -7481,7 +8058,8 @@
     "description": "Obtain all Medals of Prestige in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400132
+    "trophyId": 400132,
+    "version": "v2.4"
   },
   {
     "id": 400133,
@@ -7489,7 +8067,8 @@
     "description": "Complete Endless Challenge - Difficult in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400133
+    "trophyId": 400133,
+    "version": "v2.4"
   },
   {
     "id": 400134,
@@ -7497,7 +8076,8 @@
     "description": "Become Apex Duelist in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400134
+    "trophyId": 400134,
+    "version": "v2.4"
   },
   {
     "id": 400135,
@@ -7505,7 +8085,8 @@
     "description": "Claim your first victory in \"All Out! Towards the Peaks of Prestige.\"",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400135
+    "trophyId": 400135,
+    "version": "v2.4"
   },
   {
     "id": 400136,
@@ -7513,7 +8094,8 @@
     "description": "Unlock all Combat Machines and KU-Roro weapons in Tidal Defense Simulator.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400136
+    "trophyId": 400136,
+    "version": "v2.6"
   },
   {
     "id": 400137,
@@ -7521,7 +8103,8 @@
     "description": "Continuously defeat at least 50 TDs in any test of Tidal Defense Simulator.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400137
+    "trophyId": 400137,
+    "version": "v2.6"
   },
   {
     "id": 400138,
@@ -7529,7 +8112,8 @@
     "description": "Defeat at least 50 TDs in total with the help of terrains in Tidal Defense Simulator.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400138
+    "trophyId": 400138,
+    "version": "v2.6"
   },
   {
     "id": 400139,
@@ -7537,7 +8121,8 @@
     "description": "Survive at least 30 waves of attack in Deathtrap Mode: Total Defense Test.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400139
+    "trophyId": 400139,
+    "version": "v2.6"
   },
   {
     "id": 400140,
@@ -7545,7 +8130,8 @@
     "description": "Gain all the Rating Stars in the tests of Tidal Defense Simulator: Pass Guardian.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400140
+    "trophyId": 400140,
+    "version": "v2.6"
   },
   {
     "id": 400141,
@@ -7553,7 +8139,8 @@
     "description": "Gain all the Rating Stars in the tests of Tidal Defense Simulator: Deathtrap Mode.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400141
+    "trophyId": 400141,
+    "version": "v2.6"
   },
   {
     "id": 400145,
@@ -7561,7 +8148,8 @@
     "description": "Clear Stranger Things in Honami.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400145
+    "trophyId": 400145,
+    "version": "v2.8"
   },
   {
     "id": 400147,
@@ -7569,7 +8157,8 @@
     "description": "Successfully Extract once with an income of 400,000 or more in Stranger Things in Honami.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400147
+    "trophyId": 400147,
+    "version": "v2.8"
   },
   {
     "id": 400148,
@@ -7577,7 +8166,8 @@
     "description": "Obtain all Gallery Collectibles in Stranger Things in Honami.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400148
+    "trophyId": 400148,
+    "version": "v2.8"
   },
   {
     "id": 400149,
@@ -7585,7 +8175,8 @@
     "description": "Reach a total loot sales value of 800,000 in Stranger Things in Honami.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400149
+    "trophyId": 400149,
+    "version": "v2.8"
   },
   {
     "id": 400150,
@@ -7593,7 +8184,8 @@
     "description": "Clear the Neon Tower Challenge on the highest difficulty in Stranger Things in Honami.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400150
+    "trophyId": 400150,
+    "version": "v2.8"
   },
   {
     "id": 400151,
@@ -7601,7 +8193,8 @@
     "description": "Find the strange manhole cover painted with Namipon's image.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400151
+    "trophyId": 400151,
+    "version": "v2.8"
   },
   {
     "id": 400152,
@@ -7609,7 +8202,8 @@
     "description": "Find the tennis ball hopper carrying the memories of the Left Behind.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400152
+    "trophyId": 400152,
+    "version": "v2.8"
   },
   {
     "id": 400153,
@@ -7617,7 +8211,8 @@
     "description": "Recover the lost birthday gift of the Left Behind girl.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400153
+    "trophyId": 400153,
+    "version": "v2.8"
   },
   {
     "id": 400154,
@@ -7625,7 +8220,8 @@
     "description": "Read the message scribbled on the umbrella in the Meishin Passageway",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400154
+    "trophyId": 400154,
+    "version": "v2.8"
   },
   {
     "id": 400155,
@@ -7633,7 +8229,8 @@
     "description": "Witness the strange recruiting ritual of a secret gang.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400155
+    "trophyId": 400155,
+    "version": "v2.8"
   },
   {
     "id": 400156,
@@ -7641,7 +8238,8 @@
     "description": "Inspect the mysterious sand painting in the residential park.",
     "asterites": 5,
     "hidden": true,
-    "trophyId": 400156
+    "trophyId": 400156,
+    "version": "v2.8"
   },
   {
     "id": 400157,
@@ -7649,7 +8247,8 @@
     "description": "Upgrade the Motorbike to Modding Level 20.",
     "asterites": 10,
     "hidden": false,
-    "trophyId": 400157
+    "trophyId": 400157,
+    "version": "v3.0"
   },
   {
     "id": 400201,
@@ -7696,7 +8295,8 @@
     "description": "Upgrade any Echo to max level.",
     "asterites": 5,
     "hidden": false,
-    "trophyId": 400205
+    "trophyId": 400205,
+    "version": "v1.0"
   },
   {
     "id": 400206,
