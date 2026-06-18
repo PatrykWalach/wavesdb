@@ -20,7 +20,7 @@
     "react-router": "7.17.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.40.1",
+    "@cloudflare/vite-plugin": "1.40.2",
     "@playwright/test": "1.60.0",
     "@react-router/dev": "7.17.0",
     "@tailwindcss/vite": "4.2.2",
@@ -35,7 +35,7 @@
     "vite": "catalog:",
     "vite-plugin-devtools-json": "1.0.0",
     "vite-plus": "catalog:",
-    "wrangler": "4.99.0"
+    "wrangler": "4.100.0"
   },
   "devEngines": {
     "runtime": {
