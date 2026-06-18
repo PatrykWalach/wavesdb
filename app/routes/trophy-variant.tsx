@@ -1,8 +1,7 @@
 "use client";
 import * as Ariakit from "@ariakit/react";
 import { ArrowUpRightIcon } from "lucide-react";
-import { createContext, use, useRef, useState, type ComponentProps, type ReactNode } from "react";
-import { Form, useSubmit } from "react-router";
+import { type ReactNode } from "react";
 import {
   Item,
   ItemActions,
@@ -11,51 +10,31 @@ import {
   ItemFooter,
   ItemTitle,
 } from "~/components/ui/item";
-import type { subcategories, trophies, variants } from "~/db/schema";
+import type { groups, trophies, variants } from "~/db/schema";
 import { Tag } from "./tag";
-
-const Context = createContext<{
-  props: TrophyVariantProps;
-  setFocusVisible: (focusVisible: boolean) => void;
-  setChecked: (checked: boolean) => void;
-}>();
 
 export interface TrophyVariantProps {
   defaultChecked?: boolean;
   variant: Pick<
     typeof variants.$inferSelect,
-    "name" | "description" | "hidden" | "version" | "asterites"
+    "name" | "description" | "hidden" | "version" | "asterites" | "notes"
   >;
   trophy: Pick<typeof trophies.$inferSelect, "id">;
-  subcategory: Pick<typeof subcategories.$inferSelect, "name">;
+  subcategory: Pick<typeof groups.$inferSelect, "name">;
   children?: ReactNode;
 }
 
 export function TrophyVariant(props: TrophyVariantProps) {
-  const [checked, setChecked] = useState(props.defaultChecked ?? false);
-  const [focusVisible, setFocusVisible] = useState(false);
-
   return (
-    <Item
-      render={<label></label>}
-      variant={"outline"}
-      data-checked={checked}
-      data-focus-visible={focusVisible || undefined}
-    >
+    <Item render={<label></label>} variant={"outline"}>
       <ItemContent>
         <ItemTitle>{props.variant.name}</ItemTitle>
-        <ItemDescription>{props.variant.description}</ItemDescription>
+        <ItemDescription>
+          <p>{props.variant.description}</p>
+          {props.variant.notes ? <p># {props.variant.notes}</p> : null}
+        </ItemDescription>
       </ItemContent>
-      <Context
-        value={{
-          setFocusVisible,
-          setChecked,
-          props,
-          checked,
-        }}
-      >
-        {props.children}
-      </Context>
+      {props.children}
       <ItemFooter className="justify-start">
         {props.variant.hidden ? <Tag>Hidden</Tag> : null}
         {props.variant.asterites ? (
@@ -88,67 +67,22 @@ export function TrophyVariant(props: TrophyVariantProps) {
   );
 }
 
-export function TrophyRadio() {
-  const { setFocusVisible, setChecked, props } = use(Context);
-
+export function TrophyRadio(props: Ariakit.RadioProps) {
   return (
     <>
       <ItemActions>
-        <Ariakit.CompositeItem
-          render={
-            <Ariakit.Radio
-              ref={props.ref}
-              value={props.variant.id}
-              clickOnEnter
-              onFocusVisible={() => setFocusVisible(true)}
-              onBlur={() => setFocusVisible(false)}
-              onChange={(event) => {
-                setChecked(event.target.checked);
-                props.onChange?.(event);
-              }}
-            />
-          }
-        />
+        <Ariakit.CompositeItem render={<Ariakit.Radio clickOnEnter {...props} />} />
       </ItemActions>
     </>
   );
 }
 
-export function TrophyCheckbox() {
-  const { setFocusVisible, setChecked, props } = use(Context);
-
+export function TrophyCheckbox(props: Ariakit.CheckboxProps) {
   return (
     <>
       <ItemActions>
-        <Ariakit.CompositeItem
-          render={
-            <Ariakit.Checkbox
-              ref={props.ref}
-              clickOnEnter
-              onFocusVisible={() => setFocusVisible(true)}
-              onBlur={() => setFocusVisible(false)}
-              onChange={(event) => {
-                setChecked(event.target.checked);
-                props.onChange?.(event);
-              }}
-            />
-          }
-        />
+        <Ariakit.CompositeItem render={<Ariakit.Checkbox clickOnEnter {...props} />} />
       </ItemActions>
     </>
-  );
-}
-export function FormSubmitOnChange(props: ComponentProps<typeof Form>) {
-  const submit = useSubmit();
-  const replace = useRef(false);
-
-  return (
-    <Form
-      {...props}
-      onChange={(e) => {
-        submit(e.currentTarget, { replace: replace.current });
-        replace.current = true;
-      }}
-    ></Form>
   );
 }

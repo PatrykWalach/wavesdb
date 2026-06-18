@@ -1,7 +1,7 @@
 import * as Ariakit from "@ariakit/react";
 import { and, countDistinct, eq, isNotNull } from "drizzle-orm";
 import { SearchIcon } from "lucide-react";
-import { use } from "react";
+import { Suspense, use } from "react";
 import { Badge } from "~/components/ui/badge";
 import { Field, FieldLabel } from "~/components/ui/field";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "~/components/ui/input-group";
@@ -13,11 +13,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select";
-import { Db } from "~/db/middleware";
-import { earnedTrophies, subcategories, trophies, variants } from "~/db/schema";
-
+import { DB } from "~/db/middleware";
+import { earnedTrophies, groups, trophies, variants } from "~/db/schema";
+import { SESSION } from "~/lib/auth";
+import EARNED from "../../2026-06-14_wuwatracker-achievements.json" with { type: "json" };
 import type { Route } from "./+types/home";
-import { FormSubmitOnChange, TrophyCheckbox, TrophyRadio, TrophyVariant } from "./trophy-variant";
+import { FormSubmitOnChange } from "./submit-on-change";
 export function meta(_: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
@@ -25,51 +26,110 @@ export function meta(_: Route.MetaArgs) {
   ];
 }
 export async function loader(args: Route.LoaderArgs) {
-  const db = args.context.get(Db);
+  interface Trophy extends Pick<typeof trophies.$inferSelect, "id"> {
+    group: Pick<typeof groups.$inferSelect, "name">;
+    variants: Pick<
+      typeof variants.$inferSelect,
+      "id" | "name" | "description" | "hidden" | "version" | "asterites" | "notes"
+    >[];
+  }
+  function renderTrophy(trophy: Trophy) {
+    {
+      if (!isNonEmptyArray(trophy.variants)) {
+        return null;
+      }
 
-  const { searchParams } = new URL(args.request.url);
-  const q = searchParams.get("q") ?? undefined;
+      if (trophy.variants.length === 1) {
+        return EARNED.includes(trophy.variants[0].id) ? null : (
+          <TrophyVariant subcategory={trophy.group} variant={trophy.variants[0]} trophy={trophy}>
+            <TrophyCheckbox checked={EARNED.includes(trophy.variants[0].id)} />
+          </TrophyVariant>
+        );
+      }
 
-  const userId = 1;
+      return (
+        <Ariakit.CompositeGroup>
+          <Ariakit.RadioProvider>
+            <fieldset className="p-2 rounded border">
+              <legend>Variant</legend>
 
-  return {
-    q,
-    subcategories: db
+              <div className="grid gap-2">
+                {trophy.variants.map((variant) =>
+                  EARNED.includes(variant.id) ? null : (
+                    <TrophyVariant
+                      trophy={trophy}
+                      key={variant.id}
+                      variant={variant}
+                      subcategory={trophy.group}
+                    >
+                      <TrophyRadio checked={EARNED.includes(variant.id)} value={variant.id} />
+                    </TrophyVariant>
+                  ),
+                )}
+              </div>
+            </fieldset>
+          </Ariakit.RadioProvider>
+        </Ariakit.CompositeGroup>
+      );
+    }
+  }
+  async function getSubcategories(args: Route.LoaderArgs) {
+    const db = args.context.get(DB);
+    await seed(db);
+    const session = await args.context.get(SESSION);
+    const userId = session?.user.id;
+
+    return db
       .select({
-        name: subcategories.name,
+        name: groups.name,
         earned: countDistinct(earnedTrophies.trophyId),
         total: countDistinct(trophies.id),
       })
-      .from(subcategories)
-      .leftJoin(trophies, eq(trophies.subcategoryId, subcategories.id))
+      .from(groups)
+      .leftJoin(trophies, eq(trophies.subcategoryId, groups.id))
       .leftJoin(
         earnedTrophies,
-        and(eq(earnedTrophies.trophyId, trophies.id), eq(earnedTrophies.userId, userId)),
+        and(eq(earnedTrophies.trophyId, trophies.id), eq(earnedTrophies.userId, userId ?? -1)),
       )
-      .groupBy(subcategories.id, subcategories.name),
+      .groupBy(groups.id, groups.name);
+  }
+
+  const db = args.context.get(DB);
+
+  return {
+    subcategories: getSubcategories(args),
     versions: db
       .selectDistinct({
         version: variants.version,
       })
       .from(variants)
       .where(isNotNull(variants.version)),
-    trophies: db.query.trophies.findMany({
-      where: {
-        variants: {
-          name: { like: q ? `%${q}%` : undefined },
+    trophies: db.query.trophies
+      .findMany({
+        with: {
+          variants: true,
+          group: true,
         },
-      },
-      with: {
-        variants: true,
-        subcategory: true,
-      },
-    }),
+      })
+      .then((trophies) =>
+        trophies.map((trophy) => {
+          return {
+            ...trophy,
+            children: renderTrophy(trophy),
+          };
+        }),
+      ),
   };
 }
 
-export async function ServerComponent(props: Route.ServerComponentProps) {
-  const trophies = await props.loaderData.trophies;
+export function shouldRevalidate(args: ShouldRevalidateFunctionArgs) {
+  if (args.formMethod === "GET") {
+    return false;
+  }
+  return args.defaultShouldRevalidate;
+}
 
+export async function ServerComponent(props: Route.ServerComponentProps) {
   return (
     <Ariakit.CompositeProvider>
       <Ariakit.HeadingLevel>
@@ -95,48 +155,9 @@ export async function ServerComponent(props: Route.ServerComponentProps) {
                 />
               </InputGroup>
             </FormSubmitOnChange>
-            <div className="grid gap-2">
-              {trophies.map((trophy) => {
-                if (trophy.variants.length === 0) {
-                  return null;
-                }
-                if (trophy.variants.length === 1) {
-                  return (
-                    <TrophyVariant
-                      subcategory={trophy.subcategory}
-                      variant={trophy.variants[0]}
-                      trophy={trophy}
-                      key={trophy.id}
-                    >
-                      <TrophyCheckbox />
-                    </TrophyVariant>
-                  );
-                }
-
-                return (
-                  <Ariakit.CompositeGroup key={trophy.id}>
-                    <Ariakit.RadioProvider>
-                      <fieldset className="p-2 rounded border">
-                        <legend>Variant</legend>
-
-                        <div className="grid gap-2">
-                          {trophy.variants.map((variant) => (
-                            <TrophyVariant
-                              trophy={trophy}
-                              key={variant.id}
-                              variant={variant}
-                              subcategory={trophy.subcategory}
-                            >
-                              <TrophyRadio />
-                            </TrophyVariant>
-                          ))}
-                        </div>
-                      </fieldset>
-                    </Ariakit.RadioProvider>
-                  </Ariakit.CompositeGroup>
-                );
-              })}
-            </div>
+            <Suspense fallback="Loading...">
+              <TrophyList trophies={props.loaderData.trophies}></TrophyList>
+            </Suspense>
           </main>
         </Ariakit.Composite>
       </Ariakit.HeadingLevel>
@@ -144,30 +165,28 @@ export async function ServerComponent(props: Route.ServerComponentProps) {
   );
 }
 
-function SubcategoriesSelect(props) {
+function GroupsSelect(props: {
+  subcategories: GroupsSelectItemProps[];
+  all: Pick<GroupsSelectItemProps, "earned" | "total">;
+}) {
   return (
-    <Field defaultValue={[]}>
-      <FieldLabel>Series</FieldLabel>
-      <Select>
+    <Field>
+      <FieldLabel>Group</FieldLabel>
+      <Select name="group">
         <SelectTrigger className="w-full max-w-48">
-          <SelectValue placeholder="Select a fruit" />
+          <SelectValue fallback="Select a fruit" />
         </SelectTrigger>
         <SelectContent sameWidth={false}>
           <SelectGroup>
-            <SubcategoriesSelectItem
+            <GroupsSelectItem
               name="All"
               earned={props.all.earned}
               total={props.all.total}
-            ></SubcategoriesSelectItem>
-            {props.subcategories.map(({ name, earned, total }) => {
-              return (
-                <SubcategoriesSelectItem
-                  key={name}
-                  name={name}
-                  earned={earned}
-                  total={total}
-                ></SubcategoriesSelectItem>
-              );
+            ></GroupsSelectItem>
+            {props.subcategories.map((subcategory) => {
+              return subcategory.name ? (
+                <GroupsSelectItem {...subcategory} key={subcategory.name}></GroupsSelectItem>
+              ) : null;
             })}
           </SelectGroup>
         </SelectContent>
@@ -176,18 +195,37 @@ function SubcategoriesSelect(props) {
   );
 }
 
-function SubcategoriesSelectItem({ name, earned, total }) {
+interface GroupsSelectItemProps {
+  name: string;
+  earned: number;
+  total: number;
+}
+
+function GroupsSelectItem({ name, earned, total }: GroupsSelectItemProps) {
   return (
     <SelectItem value={name} className="justify-between">
       {name}
       <Badge>
-        {earned}/{total} | {parseInt((earned / total) * 100)}%
+        {earned}/{total} | {parseInt(String((earned / total) * 100))}%
       </Badge>
     </SelectItem>
   );
 }
 
-function Filters(props) {
+function Filters(props: {
+  subcategories: Promise<
+    {
+      name: string;
+      earned: number;
+      total: number;
+    }[]
+  >;
+  versions: Promise<
+    {
+      version: typeof schema.variants.$inferSelect.version;
+    }[]
+  >;
+}) {
   const subcategories = use(props.subcategories);
   const versions = use(props.versions);
 
@@ -204,8 +242,8 @@ function Filters(props) {
 
   return (
     <div className="grid">
-      <SubcategoriesSelect subcategories={subcategories} all={all}></SubcategoriesSelect>
-      {props.versions.length ? <VersionsSelect versions={versions}></VersionsSelect> : null}
+      <GroupsSelect subcategories={subcategories} all={all}></GroupsSelect>
+      {versions.length ? <VersionsSelect versions={versions}></VersionsSelect> : null}
 
       <div>
         {/* TODO: implement asterites counter */}
@@ -220,26 +258,40 @@ function Filters(props) {
   );
 }
 
-function VersionsSelect(props) {
+import type { ShouldRevalidateFunctionArgs } from "react-router";
+import { seed } from "../../seed";
+import type * as schema from "../db/schema";
+import { TrophyList } from "./trophy-list";
+import { TrophyCheckbox, TrophyRadio, TrophyVariant } from "./trophy-variant";
+
+function VersionsSelect(props: {
+  versions: {
+    version: typeof schema.variants.$inferSelect.version;
+  }[];
+}) {
   return (
-    <Field defaultValue={[]}>
+    <Field>
       <FieldLabel>Version</FieldLabel>
-      <Select>
+      <Select defaultValue={[]} multiple name="version">
         <SelectTrigger className="w-full max-w-48">
-          <SelectValue placeholder="Select a fruit" />
+          <SelectValue fallback="Select a fruit" />
         </SelectTrigger>
         <SelectContent>
           <SelectGroup>
             {props.versions.map(({ version }) => {
-              return (
+              return version ? (
                 <SelectItem value={version} key={version}>
                   {version}
                 </SelectItem>
-              );
+              ) : null;
             })}
           </SelectGroup>
         </SelectContent>
       </Select>
     </Field>
   );
+}
+
+function isNonEmptyArray<T>(value: readonly T[]): value is readonly [T, ...T[]] {
+  return value.length !== 0;
 }

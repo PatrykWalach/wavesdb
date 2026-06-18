@@ -3,6 +3,7 @@ import { isRouteErrorResponse, Links, Meta, Outlet, ScrollRestoration } from "re
 import type { Route } from "./+types/root";
 import "./app.css";
 import { dbMiddleware } from "./db/middleware";
+import { sessionMiddleware } from "./lib/auth";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -38,7 +39,7 @@ export default function App() {
   return <Outlet />;
 }
 
-export const middleware = [dbMiddleware];
+export const middleware = [dbMiddleware, sessionMiddleware];
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   let message = "Oops!";

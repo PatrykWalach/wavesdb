@@ -1,0 +1,29 @@
+diff --git a/package.json b/package.json
+index edeb4f256bff860b486c404b2c522796fcafc708..eafb23158447d0d946136887145a13e84359a165 100644
+--- a/package.json
++++ b/package.json
+@@ -1,18 +1,22 @@
+ {
+   "name": "server-only",
++  "version": "0.0.1",
+   "description": "This is a marker package to indicate that a module can only be used in Server Components.",
+   "keywords": [
+     "react"
+   ],
+-  "version": "0.0.1",
+   "homepage": "https://reactjs.org/",
+   "bugs": "https://github.com/facebook/react/issues",
+   "license": "MIT",
+-  "files": ["index.js", "empty.js"],
++  "files": [
++    "index.js",
++    "empty.js"
++  ],
+   "main": "index.js",
+   "exports": {
+     ".": {
+       "react-server": "./empty.js",
++      "node": "./empty.js",
+       "default": "./index.js"
+     }
+   }

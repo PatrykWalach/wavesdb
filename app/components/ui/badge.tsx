@@ -1,6 +1,6 @@
+import * as Ariakit from "@ariakit/react";
+import { type RoleProps } from "@ariakit/react";
 import { cva, type VariantProps } from "class-variance-authority";
-
-import { Role, type RoleProps } from "@ariakit/react";
 import { cn } from "~/lib/utils";
 
 const badgeVariants = cva(
@@ -27,13 +27,14 @@ function Badge({
   className,
   variant = "default",
   ...props
-}: RoleProps<"span"> & VariantProps<typeof badgeVariants>) {
+}: RoleProps<"div"> & VariantProps<typeof badgeVariants>) {
   return (
-    <span
+    <Ariakit.Role
+      render={<span></span>}
+      {...props}
       data-slot="badge"
       data-variant={variant}
       className={cn(badgeVariants({ variant }), className)}
-      {...props}
     />
   );
 }

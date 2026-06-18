@@ -1,30 +1,31 @@
 import { defineRelations } from "drizzle-orm";
+import "server-only";
 import * as schema from "./schema";
 
 export const relations = defineRelations(schema, (r) => ({
   categories: {
-    subcategories: r.many.subcategories({
+    subcategories: r.many.groups({
       from: [r.categories.id],
-      to: [r.subcategories.categoryId],
+      to: [r.groups.categoryId],
     }),
   },
 
-  subcategories: {
+  groups: {
     category: r.one.categories({
-      from: [r.subcategories.categoryId],
+      from: [r.groups.categoryId],
       to: [r.categories.id],
       optional: false,
     }),
     trophies: r.many.trophies({
-      from: [r.subcategories.id],
+      from: [r.groups.id],
       to: [r.trophies.subcategoryId],
     }),
   },
 
   trophies: {
-    subcategory: r.one.subcategories({
+    group: r.one.groups({
       from: [r.trophies.subcategoryId],
-      to: [r.subcategories.id],
+      to: [r.groups.id],
       optional: false,
     }),
     variants: r.many.variants(),

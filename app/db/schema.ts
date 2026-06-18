@@ -1,4 +1,5 @@
 import { int, sqliteTable, text, unique } from "drizzle-orm/sqlite-core";
+import "server-only";
 
 const sharedFields = {
   id: int().primaryKey({ autoIncrement: true }),
@@ -7,17 +8,13 @@ const sharedFields = {
 // 4 main categories: Exploration/Journey/Battles/Voice
 export const categories = sqliteTable("categories", {
   ...sharedFields,
-  name: text({
-    enum: ["Exploration", "Journey", "Battles", "Voice"],
-  })
-    .notNull()
-    .unique(),
+  name: text().notNull(),
 });
 
 // e.g. Exploration: Huanglong, Footprints in Huanglong I, Footprints in Huanglong II
-export const subcategories = sqliteTable("subcategories", {
+export const groups = sqliteTable("groups", {
   ...sharedFields,
-  name: text().notNull().unique(),
+  name: text().unique(),
   categoryId: int()
     //  TODO: temporary nullable, sort into categories
     //  .notNull()
@@ -29,7 +26,7 @@ export const trophies = sqliteTable("trophies", {
   ...sharedFields,
   subcategoryId: int()
     .notNull()
-    .references(() => subcategories.id),
+    .references(() => groups.id),
 });
 
 export const variants = sqliteTable("variants", {
@@ -37,7 +34,7 @@ export const variants = sqliteTable("variants", {
   name: text().notNull(),
   description: text().notNull(),
   hidden: int({ mode: "boolean" }).notNull(),
-  asterites: int().notNull(),
+  asterites: int(),
   trophyId: int()
     .notNull()
     .references(() => trophies.id),

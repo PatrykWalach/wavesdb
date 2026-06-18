@@ -4,6 +4,9 @@
 @import "@fontsource-variable/geist";
 
 @custom-variant dark (&:is(.dark *));
+@custom-variant picker (&::picker(select));
+@custom-variant picker-icon (&::picker-icon);
+@custom-variant checkmark (&::checkmark);
 
 @theme {
   --font-sans:

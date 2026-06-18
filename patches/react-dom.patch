@@ -1,0 +1,23 @@
+diff --git a/cjs/react-dom-client.development.js b/cjs/react-dom-client.development.js
+index 8c860aca7db6a1ca74788209d100f10ae5f085fa..268ea50fdb5f3236ba6cc54ef2e20999a30abb59 100644
+--- a/cjs/react-dom-client.development.js
++++ b/cjs/react-dom-client.development.js
+@@ -2389,6 +2389,7 @@
+         case "select":
+           return (
+             "hr" === tag ||
++            "button" === tag ||
+             "option" === tag ||
+             "optgroup" === tag ||
+             "script" === tag ||
+@@ -2396,9 +2397,7 @@
+             "#text" === tag
+           );
+         case "optgroup":
+-          return "option" === tag || "#text" === tag;
+-        case "option":
+-          return "#text" === tag;
++          return "legend" === tag || "option" === tag || "#text" === tag;
+         case "tr":
+           return (
+             "th" === tag ||
