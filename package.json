@@ -31,7 +31,7 @@
     "dotenv": "17.4.2",
     "drizzle-kit": "1.0.0-rc.4-ca0f029",
     "tailwindcss": "4.3.1",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vite": "catalog:",
     "vite-plugin-devtools-json": "1.0.0",
     "vite-plus": "catalog:",
