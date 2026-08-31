@@ -14,13 +14,13 @@
   "dependencies": {
     "@react-router/serve": "8.0.0",
     "@remix-run/node-fetch-server": "0.13.3",
-    "drizzle-orm": "1.0.0-rc.4-5d5b77c",
+    "drizzle-orm": "1.0.0-rc.5-ab785fc",
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-router": "8.0.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.40.2",
+    "@cloudflare/vite-plugin": "1.54.2",
     "@playwright/test": "1.60.0",
     "@react-router/dev": "8.0.0",
     "@tailwindcss/vite": "4.3.1",
@@ -29,13 +29,13 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-rsc": "0.5.27",
     "dotenv": "17.4.2",
-    "drizzle-kit": "1.0.0-rc.4-ca0f029",
+    "drizzle-kit": "1.0.0-rc.5-ab785fc",
     "tailwindcss": "4.3.1",
     "typescript": "6.0.3",
     "vite": "catalog:",
     "vite-plugin-devtools-json": "1.0.0",
     "vite-plus": "catalog:",
-    "wrangler": "4.100.0"
+    "wrangler": "4.127.1"
   },
   "devEngines": {
     "runtime": {
